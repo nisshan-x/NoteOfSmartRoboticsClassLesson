@@ -42,13 +42,9 @@ $\ddot{x}$は運動、fは力を表す
 
 ```math
 ポテンシャルエネルギー : U \\
-
 運動エネルギー : K \\
-
 ラグランジアン : L = K - U \\
-
 一般化座標 : \boldsymbol{X} \\
-
 ラグランジュの運動方程式 : \frac{d}{dt}(\frac{\partial L}{\partial \dot{\boldsymbol{X}}}) - \frac{\partial L}{\partial \boldsymbol{X}} = 0
 ```
 
@@ -81,13 +77,9 @@ K = \frac{1}{2}mv^2
 
 ```math
 ポテンシャルエネルギー : U = -mxg \\
-
 運動エネルギー : K = \frac{1}{2}m\dot{x}^2 \\
-
 ラグランジアン : L = K - U \\
-
 座標 : x \\
-
 ラグランジュの運動方程式 : \frac{d}{dt}(\frac{\partial L}{\partial \dot{x}}) - \frac{\partial L}{\partial x} = 0
 ```
 
