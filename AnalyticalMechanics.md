@@ -1,7 +1,7 @@
 # 第１週　解析力学の概要、ラグランジュの運動方程式
 
-[Youtube](https://www.youtube.com/watch?v=kwGFway0duQ)
-[pdf](http:/www.ritsumei.ac.jp/~uemura-m/AnalyticalMechanics/AnalyticalMechanics1stWeek.pdf)
+* [Youtube](https://www.youtube.com/watch?v=kwGFway0duQ)
+* [pdf](http:/www.ritsumei.ac.jp/~uemura-m/AnalyticalMechanics/AnalyticalMechanics1stWeek.pdf)
 ## 力学とは
 
 力に関係した現象を数学的に調べる。
