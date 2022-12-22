@@ -41,10 +41,18 @@ $\ddot{x}$は運動、fは力を表す
 ## ラグランジュの運動方程式
 
 ```math
-ポテンシャルエネルギー : U \\
-運動エネルギー : K \\
-ラグランジアン : L = K - U \\
-一般化座標 : \boldsymbol{X} \\
+ポテンシャルエネルギー : U
+```
+```math
+運動エネルギー : K
+```
+```math
+ラグランジアン : L = K - U
+```
+```math
+一般化座標 : \boldsymbol{X}
+```
+```math
 ラグランジュの運動方程式 : \frac{d}{dt}(\frac{\partial L}{\partial \dot{\boldsymbol{X}}}) - \frac{\partial L}{\partial \boldsymbol{X}} = 0
 ```
 
@@ -71,15 +79,28 @@ K = \frac{1}{2}mv^2
 
 ```
 
+### ラグランジュの運動方程式の利点
+
+* 複雑な系でも、統一的な方法で比較的容易に運動方程式を導出できる
+* 拘束のある系も取り扱える
+
 ### ラグランジュの運動方程式の例　１
 
 質量mの物体が自由落下する。縦方向の位置はx(下向きに正)。
 
 ```math
 ポテンシャルエネルギー : U = -mxg \\
+```
+```math
 運動エネルギー : K = \frac{1}{2}m\dot{x}^2 \\
+```
+```math
 ラグランジアン : L = K - U \\
+```
+```math
 座標 : x \\
+```
+```math
 ラグランジュの運動方程式 : \frac{d}{dt}(\frac{\partial L}{\partial \dot{x}}) - \frac{\partial L}{\partial x} = 0
 ```
 
@@ -132,12 +153,6 @@ $\dot{x}$で偏微分する。
 m\ddot{x} - mg = 0
 ```
 
-### ラグランジュの運動方程式の利点
-
-* 複雑な系でも、統一的な方法で比較的容易に運動方程式を導出できる
-* 拘束のある系も取り扱える
-
-
 ### ラグランジュの運動方程式の例　２
 
 水平な面に置かれた質点ｍの物体がバネに繋がている。バネ係数k、位置は水平方向にx。
@@ -160,17 +175,11 @@ L &= K - U \\
 
 ラグランジュの運動方程式を解く。
 ```math
-\frac{d}{dt}(\frac{\partial L}{\partial \dot{x}}) - \frac{\partial L}{\partial x} = 0 \\
-
-\frac{d}{dt}(\frac{\partial (\frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2)}{\partial \dot{x}}) - \frac{\partial (\frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2))}{\partial x} = 0 \\
-
-\frac{d}{dt}(m\dot{x}-0) -  (0 - kx) = 0 \\
-
-m\ddot{x} -  (0 - kx) = 0 \\
-
-m\ddot{x} + kx = 0
-```
-
-
-```math
+\begin{aligned}
+\frac{d}{dt}(\frac{\partial L}{\partial \dot{x}}) - \frac{\partial L}{\partial x} &= 0 \\
+\frac{d}{dt}(\frac{\partial (\frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2)}{\partial \dot{x}}) - \frac{\partial (\frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2))}{\partial x} &= 0 \\
+\frac{d}{dt}(m\dot{x}-0) -  (0 - kx) &= 0 \\
+m\ddot{x} -  (0 - kx) &= 0 \\
+m\ddot{x} + kx &= 0
+\end{aligned}
 ```
