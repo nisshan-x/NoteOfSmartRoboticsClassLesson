@@ -20,7 +20,7 @@
 ```math
 m\ddot{x} = f
 ```
-$\ddot{x}$は運動、$f$は力を表す
+$\ddot{x}$は運動、fは力を表す
 
 
 ## 運動方程式の用途
@@ -32,8 +32,8 @@ $\ddot{x}$は運動、$f$は力を表す
 
 ## 解析力学の物理的位置づけ
 
-1. ニュートン力学（1687）
-1. 解析力学（１７８８）
+1. ニュートン力学(1687)
+1. 解析力学(1788)
 1. 相対性理論(1905)
 1. 量子力学(1900)
 1. 超弦理論(1960)
@@ -41,14 +41,14 @@ $\ddot{x}$は運動、$f$は力を表す
 ## ラグランジュの運動方程式
 
 ```math
-ポテンシャルエネルギー : U
-\\
-運動エネルギー : K
-\\
-ラグランジアン : L = K - U
-\\
-一般化座標 : \boldsymbol{X}
-\\
+ポテンシャルエネルギー : U \\
+
+運動エネルギー : K \\
+
+ラグランジアン : L = K - U \\
+
+一般化座標 : \boldsymbol{X} \\
+
 ラグランジュの運動方程式 : \frac{d}{dt}(\frac{\partial L}{\partial \dot{\boldsymbol{X}}}) - \frac{\partial L}{\partial \boldsymbol{X}} = 0
 ```
 
@@ -80,16 +80,15 @@ K = \frac{1}{2}mv^2
 質量mの物体が自由落下する。縦方向の位置はx(下向きに正)。
 
 ```math
-ポテンシャルエネルギー : U = -mxg
-\\
-運動エネルギー : K = \frac{1}{2}m\dot{x}^2
-\\
-ラグランジアン : L = K - U
-\\
-座標 : x
-\\
+ポテンシャルエネルギー : U = -mxg \\
+
+運動エネルギー : K = \frac{1}{2}m\dot{x}^2 \\
+
+ラグランジアン : L = K - U \\
+
+座標 : x \\
+
 ラグランジュの運動方程式 : \frac{d}{dt}(\frac{\partial L}{\partial \dot{x}}) - \frac{\partial L}{\partial x} = 0
-\\
 ```
 
 $\partial $は偏微分。
@@ -169,14 +168,14 @@ L &= K - U \\
 
 ラグランジュの運動方程式を解く。
 ```math
-\frac{d}{dt}(\frac{\partial L}{\partial \dot{x}}) - \frac{\partial L}{\partial x} = 0
-\\
-\frac{d}{dt}(\frac{\partial (\frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2)}{\partial \dot{x}}) - \frac{\partial (\frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2))}{\partial x} = 0
-\\
-\frac{d}{dt}(m\dot{x}-0) -  (0 - kx) = 0
-\\
-m\ddot{x} -  (0 - kx) = 0
-\\
+\frac{d}{dt}(\frac{\partial L}{\partial \dot{x}}) - \frac{\partial L}{\partial x} = 0 \\
+
+\frac{d}{dt}(\frac{\partial (\frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2)}{\partial \dot{x}}) - \frac{\partial (\frac{1}{2}m\dot{x}^2 - \frac{1}{2}kx^2))}{\partial x} = 0 \\
+
+\frac{d}{dt}(m\dot{x}-0) -  (0 - kx) = 0 \\
+
+m\ddot{x} -  (0 - kx) = 0 \\
+
 m\ddot{x} + kx = 0
 ```
 
