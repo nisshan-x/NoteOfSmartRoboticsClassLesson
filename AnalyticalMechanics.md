@@ -56,15 +56,21 @@ $\ddot{x}$は運動、fは力を表す
 ラグランジュの運動方程式 : \frac{d}{dt}(\frac{\partial L}{\partial \dot{\boldsymbol{X}}}) - \frac{\partial L}{\partial \boldsymbol{X}} = 0
 ```
 
+ラグランジアンは定義。
+
 ### ポテンシャルエネルギー
 
 例： 高さhの位置にある質量mの物体
+
+![fig_01](figures/lesson-01/fig_01.JPG)
 
 ```math
 U = mgh
 ```
 
 例： バネ係数kにつながる質量mの物体がxの位置にあるとき
+
+![fig_02](figures/lesson-01/fig_02.JPG)
 
 ```math
 U = \frac{1}{2}kx^2
@@ -73,6 +79,8 @@ U = \frac{1}{2}kx^2
 ### 運動エネルギー
 
 例： 速さvで動く、質量mの物体
+
+![fig_03](figures/lesson-01/fig_03.JPG)
 
 ```math
 K = \frac{1}{2}mv^2
@@ -87,6 +95,8 @@ K = \frac{1}{2}mv^2
 ### ラグランジュの運動方程式の例　１
 
 質量mの物体が自由落下する。縦方向の位置はx(下向きに正)。
+
+![fig_04](figures/lesson-01/fig_04.JPG)
 
 ```math
 ポテンシャルエネルギー : U = -mxg \\
@@ -156,6 +166,8 @@ m\ddot{x} - mg = 0
 ### ラグランジュの運動方程式の例　２
 
 水平な面に置かれた質点ｍの物体がバネに繋がている。バネ係数k、位置は水平方向にx。
+
+![fig_02](figures/lesson-01/fig_02.JPG)
 
 ポテンシャルエネルギー
 ```math
