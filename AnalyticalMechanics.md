@@ -700,47 +700,17 @@ v_{cm}^2 = \dot{x}^2_{cm} + \dot{y}^2_{cm} より  \\
 ```math
 \begin{aligned}
 \frac{\partial L}{\partial \dot{\bf{X}}} &= \frac{\partial}{\partial \dot{\bf{X}}} (\frac{1}{2}m(\dot{x}^2_{cm} + \dot{y}^2_{cm}) + \frac{1}{2}I \dot{\theta}^2 - mgy_{cm}) \\
-&= \frac{1}{2}m \frac{\partial}{\partial \dot{\bf{X}}} \dot{x}_{cm}^2 + \frac{1}{2}m \frac{\partial}{\partial \dot{\bf{X}}} \dot{y}_{cm}^2 + \frac{1}{2}I\frac{\partial}{\partial \dot{\bf{X}}} \dot{\theta}^2 - mg\frac{\partial}{\partial \dot{\bf{X}}} y_{cm} \\
-&= \frac{1}{2}m\begin{pmatrix}
-\frac{\partial}{\partial \dot{x}} \dot{x}_{cm}^2\\
-0 \\
-0
-\end{pmatrix}
-+ \frac{1}{2}m\begin{pmatrix}
-0 \\
-\frac{\partial}{\partial \dot{y}} \dot{y}_{cm}^2 \\
-0
-\end{pmatrix}
-+ \frac{1}{2} I \begin{pmatrix}
-0 \\
-0 \\
-\frac{\partial}{\partial \dot{\theta}}  \dot{\theta}^2
-\end{pmatrix}
-- mg\begin{pmatrix}
-0 \\
-\frac{\partial}{\partial \dot{y}} y_{cm} \\
-0
-\end{pmatrix} \\
-&= \frac{1}{2}m\begin{pmatrix}
-2 \dot{x}_{cm} \\
-2 \dot{y}_{cm} \\
-0
-\end{pmatrix}
-+ \frac{1}{2} I \begin{pmatrix}
-0 \\
-0 \\
-2 \dot{\theta}
-\end{pmatrix}
-- mg\begin{pmatrix}
-0 \\
-0 \\
-0
+&= \begin{pmatrix}
+\frac{\partial}{\partial \dot{x}} (\frac{1}{2}m(\dot{x}^2_{cm} + \dot{y}^2_{cm}) + \frac{1}{2}I \dot{\theta}^2 - mgy_{cm}) \\
+\frac{\partial}{\partial \dot{y}} (\frac{1}{2}m(\dot{x}^2_{cm} + \dot{y}^2_{cm}) + \frac{1}{2}I \dot{\theta}^2 - mgy_{cm}) \\
+\frac{\partial}{\partial \dot{\theta}} (\frac{1}{2}m(\dot{x}^2_{cm} + \dot{y}^2_{cm}) + \frac{1}{2}I \dot{\theta}^2 - mgy_{cm})
 \end{pmatrix} \\
 &= \begin{pmatrix}
-m\dot{x}_{cm} \\
-m\dot{y}_{cm} \\
-I\dot{\theta}
-\end{pmatrix} \\
+m\dot{x}_{cm}\\
+m\dot{y}_{cm}\\
+I \dot{\theta}
+\end{pmatrix}
+
 \end{aligned}
 ```
 
