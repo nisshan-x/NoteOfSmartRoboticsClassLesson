@@ -700,6 +700,17 @@ v_{cm}^2 = \dot{x}^2_{cm} + \dot{y}^2_{cm} より  \\
 ```math
 \begin{aligned}
 \frac{\partial L}{\partial \dot{\bf{X}}} &= \frac{\partial}{\partial \dot{\bf{X}}} (\frac{1}{2}m(\dot{x}^2_{cm} + \dot{y}^2_{cm}) + \frac{1}{2}I \dot{\theta}^2 - mgy_{cm}) \\
+&= \begin{pmatrix}
+\frac{\partial}{\partial \dot{x}} (\frac{1}{2}m(\dot{x}^2_{cm} + \dot{y}^2_{cm}) + \frac{1}{2}I \dot{\theta}^2 - mgy_{cm}) \\
+\frac{\partial}{\partial \dot{y}} (\frac{1}{2}m(\dot{x}^2_{cm} + \dot{y}^2_{cm}) + \frac{1}{2}I \dot{\theta}^2 - mgy_{cm}) \\
+\frac{\partial}{\partial \dot{\theta}} (\frac{1}{2}m(\dot{x}^2_{cm} + \dot{y}^2_{cm}) + \frac{1}{2}I \dot{\theta}^2 - mgy_{cm})
+\end{pmatrix} \\
+&= \begin{pmatrix}
+m\dot{x}_{cm}\\
+m\dot{y}_{cm}\\
+I \dot{\theta}
+\end{pmatrix}
+
 \end{aligned}
 ```
 
