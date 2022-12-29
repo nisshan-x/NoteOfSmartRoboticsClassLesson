@@ -2,6 +2,7 @@
 
 * [Youtube](https://www.youtube.com/watch?v=kwGFway0duQ)
 * [pdf](http:/www.ritsumei.ac.jp/~uemura-m/AnalyticalMechanics/AnalyticalMechanics1stWeek.pdf)
+
 ## 力学とは
 
 力に関係した現象を数学的に調べる。
@@ -20,8 +21,8 @@
 ```math
 m\ddot{x} = f
 ```
-$\ddot{x}$は運動、fは力を表す
 
+$\ddot{x}$は運動、fは力を表す
 
 ## 運動方程式の用途
 
@@ -43,17 +44,21 @@ $\ddot{x}$は運動、fは力を表す
 ```math
 ポテンシャルエネルギー : U
 ```
+
 ```math
 運動エネルギー : K
 ```
+
 ```math
 ラグランジアン : L = K - U
 ```
+
 ```math
-一般化座標 : \boldsymbol{X}
+一般化座標 : \bf{X}
 ```
+
 ```math
-ラグランジュの運動方程式 : \frac{d}{dt}(\frac{\partial L}{\partial \dot{\boldsymbol{X}}}) - \frac{\partial L}{\partial \boldsymbol{X}} = 0
+ラグランジュの運動方程式 : \frac{d}{dt}(\frac{\partial L}{\partial \dot{\bf{X}}}) - \frac{\partial L}{\partial \bf{X}} = 0
 ```
 
 ラグランジアンは定義。
@@ -101,15 +106,19 @@ K = \frac{1}{2}mv^2
 ```math
 ポテンシャルエネルギー : U = -mxg \\
 ```
+
 ```math
 運動エネルギー : K = \frac{1}{2}m\dot{x}^2 \\
 ```
+
 ```math
 ラグランジアン : L = K - U \\
 ```
+
 ```math
 座標 : x \\
 ```
+
 ```math
 ラグランジュの運動方程式 : \frac{d}{dt}(\frac{\partial L}{\partial \dot{x}}) - \frac{\partial L}{\partial x} = 0
 ```
@@ -170,14 +179,19 @@ m\ddot{x} - mg = 0
 ![fig_02](figures/lesson-01/fig_02.JPG)
 
 ポテンシャルエネルギー
+
 ```math
 U = \frac{1}{2}kx^2
 ```
+
 運動エネルギー
+
 ```math
 K = \frac{1}{2}m\dot{x}^2
 ```
+
 ラグランジアン
+
 ```math
 \begin{aligned}
 L &= K - U \\
@@ -186,6 +200,7 @@ L &= K - U \\
 ```
 
 ラグランジュの運動方程式を解く。
+
 ```math
 \begin{aligned}
 \frac{d}{dt}(\frac{\partial L}{\partial \dot{x}}) - \frac{\partial L}{\partial x} &= 0 \\
@@ -203,7 +218,7 @@ m\ddot{x} + kx &= 0
 
 ## 質点の運動方程式 (2次元平面)
 
-![](figures/lesson-02/fig_01.JPG)
+![fig](figures/lesson-02/fig_01.JPG)
 (重力はないものとする)
 
 ポテンシャルエネルギー
@@ -212,6 +227,7 @@ m\ddot{x} + kx &= 0
 
 U = 0
 ```
+
 運動エネルギー
 
 ```math
@@ -228,7 +244,7 @@ L = K - U
 座標
 
 ```math
-\boldsymbol{X} = \begin{pmatrix}
+\bf{X} = \begin{pmatrix}
 x \\
 y
 \end{pmatrix}
@@ -238,8 +254,8 @@ y
 
 ```math
 \begin{aligned}
-\frac{d}{dt}(\frac{\partial L}{\partial \dot{\boldsymbol{X}}}) - \frac{\partial L}{\partial \boldsymbol{X}} &= 0 \\
-\frac{d}{dt}(\frac{\partial (\frac{1}{2}m(\dot{x}^2+\dot{y}^2))}{\partial \dot{\boldsymbol{X}}}) - \frac{\partial (\frac{1}{2}m(\dot{x}^2+\dot{y}^2))}{\partial \boldsymbol{X}} &= 0  \\
+\frac{d}{dt}(\frac{\partial L}{\partial \dot{\bf{X}}}) - \frac{\partial L}{\partial \bf{X}} &= 0 \\
+\frac{d}{dt}(\frac{\partial (\frac{1}{2}m(\dot{x}^2+\dot{y}^2))}{\partial \dot{\bf{X}}}) - \frac{\partial (\frac{1}{2}m(\dot{x}^2+\dot{y}^2))}{\partial \bf{X}} &= 0  \\
 \frac{d}{dt}\begin{pmatrix}
 \frac{\partial}{\partial \dot{x}} \frac{1}{2}m(\dot{x}^2+\dot{y}^2) \\
 \frac{\partial}{\partial \dot{y}} \frac{1}{2}m(\dot{x}^2+\dot{y}^2)
@@ -261,7 +277,7 @@ m \ddot{y}
 0 \\
 0
 \end{pmatrix} &= 0  \\
-m \ddot{\boldsymbol{X}} &= 0
+m \ddot{\bf{X}} &= 0
 \end{aligned}
 ```
 
@@ -272,20 +288,22 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 ```
 
 ### 偏微分
+
 微分対象の変数以外は定数として微分する
 
 ```math
 \frac{\partial}{\partial x}f = \frac{\partial}{\partial x}(7x(t)+3\dot{x}(t)+4y(x(t))+2t) = 7
 ```
+
 ```math
 \frac{\partial}{\partial t}f = \frac{\partial}{\partial x}(7x(t)+3\dot{x}(t)+4y(x(t))+2t) = 2
 ```
 
 ### 全微分
+
 ```math
 \frac{d}{dt}f = \frac{d}{dt}(7x(t)+3\dot{x}(t)+4y(x(t))+2t) = 7\dot{x}+3\ddot{x}+4\frac{\partial y}{\partial x}+2
 ```
-
 
 ## 演習
 
@@ -306,7 +324,9 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 \frac{\partial}{\partial x}(x \sin x) &= \sin x + x \cos x
 \end{aligned}
 ```
+
 ### ③
+
 だたし、aは定数、x,yはtに依存した変数
 
 ```math
@@ -314,8 +334,11 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 \frac{d}{dt}axy = a\dot{x}y + ax\dot{y}
 \end{aligned}
 ```
+
 ### ④
+
 だたし、xはtに依存した変数
+
 ```math
 \begin{aligned}
 \frac{d}{dt}\sin x = \frac{\partial}{\partial x} \sin x * \frac{d}{dt}x = \cos x * \dot{x} = \dot{x} \cos x
@@ -328,14 +351,14 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 
 ### 3関節ロボット
 
-![](figures/lesson-02/fig_02.JPG)
+![fig](figures/lesson-02/fig_02.JPG)
 
 * 関節角度ベクトル $(q_1, q_2, q_3)$ は一般化座標
 * 手先位置 $(x, y)$ は一般化座標ではない（系の位置を決められない）
 
 ### 質点
 
-![](figures/lesson-02/fig_03.JPG)
+![fig](figures/lesson-02/fig_03.JPG)
 
 * 座標 $(x, y, r, \theta)$ は一般化座標ではない（変数の数が最小ではない）
 * ベクトル $(x, y)$ は一般化座標
@@ -357,7 +380,7 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 
 ### 剛体
 
-![](figures/lesson-02/fig_04.JPG)
+![fig](figures/lesson-02/fig_04.JPG)
 
 * 2次元平面： 3自由度
 * 3次元平面： 6自由度
@@ -370,22 +393,25 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 
 ### 2つの質点が棒で拘束
 
-![](figures/lesson-02/fig_05.JPG)
+![fig](figures/lesson-02/fig_05.JPG)
 
 拘束条件
 
 ```math
 \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2} = l
 ```
+
 自由度
+
 ```math
 2 + 2 - 1 = 3
 ```
+
 1は↑の拘束条件の数
 
 ### ロボットの手先が壁に拘束
 
-![](figures/lesson-02/fig_06.JPG)
+![fig](figures/lesson-02/fig_06.JPG)
 
 拘束条件
 
@@ -401,7 +427,7 @@ k_y(q_1, q_2, q_3) = y_{kabe}
 
 ## ロボットの先端リンクが壁に固定
 
-![](figures/lesson-02/fig_07.JPG)
+![fig](figures/lesson-02/fig_07.JPG)
 
 手先の $x$ 座標、 $y$ 座標、手先角度 $\theta$ が拘束
 自由度
@@ -416,7 +442,7 @@ k_y(q_1, q_2, q_3) = y_{kabe}
 
 次の系の自由度を求めよう。
 
-![](figures/lesson-02/fig_08.JPG)
+![fig](figures/lesson-02/fig_08.JPG)
 
 3関節ロボットと2関節ロボットに分割して考える。
 左側の手先と右側の手先の $x$ 座標、 $y$ 座標、手先角度 $\theta$ が拘束
@@ -436,7 +462,7 @@ k_y(q_1, q_2, q_3) = y_{kabe}
 
 運動エネルギーの定義： 運動する物体が持つエネルギー
 
-![](figures/lesson-03/fig_01.JPG)
+![fig](figures/lesson-03/fig_01.JPG)
 
 ### 質点の運動エネルギー
 
@@ -488,7 +514,7 @@ K = \frac{1}{2}mv^2 = \frac{1}{2} * 60 * 4^2 = 480 [J] \\
 
 ### 剛体の運動エネルギー
 
-![](figures/lesson-03/fig_02.JPG)
+![fig](figures/lesson-03/fig_02.JPG)
 
 ```math
 K = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}I\omega^2
@@ -501,7 +527,7 @@ $\omega$ : 角速度
 
 ### 別表現
 
-![](figures/lesson-03/fig_03.JPG)
+![fig](figures/lesson-03/fig_03.JPG)
 
 ```math
 K = \frac{1}{2}m \dot{{\bf{X_{cm}}}}\cdot\dot{{\bf{X_{cm}}}} + \frac{1}{2}I\dot{\theta}^2
@@ -514,14 +540,18 @@ K = \frac{1}{2}m \dot{{\bf{X_{cm}}}}\cdot\dot{{\bf{X_{cm}}}} + \frac{1}{2}I\dot{
 重心の並行移動と重心周りの回転を考える <br>
 ↓ <br>
 全質点の運動エネルギーの和
+
 ```math
 K = \sum_{i=1}^{n}\frac{1}{2}m_iv_i^2
 ```
+
 ↓ <br>
 剛体の運動エネルギー
+
 ```math
 K = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}I\omega^2
 ```
+
 ## 剛体の重心
 
 剛体を質点の集まりとして考える
@@ -538,7 +568,7 @@ ${\bf{X_i}}$ : 各質点の位置ベクトル
 
 ### ２質点系での例
 
-![](figures/lesson-03/fig_04.JPG)
+![fig](figures/lesson-03/fig_04.JPG)
 
 ```math
 x_{cm} = \frac{1}{m_1 + m_2}(m_1 x_1 + m_2 x_2) \\
@@ -546,7 +576,7 @@ x_{cm} = \frac{1}{m_1 + m_2}(m_1 x_1 + m_2 x_2) \\
 
 ## 各質点の位置
 
-![](figures/lesson-03/fig_05.JPG)
+![fig](figures/lesson-03/fig_05.JPG)
 
 ### 各質点の位置 ${\bf{X_i}}$
 
@@ -574,8 +604,6 @@ $\rho_i$ : 重心から見た位置
 \therefore \sum_{i=l}^{N} m_i {\bf{\rho_i}} = 0
 \end{aligned}
 ```
-
-
 
 ### $\rho_i$の性質②
 
@@ -606,6 +634,7 @@ v_i^2 &= {\bf{\dot{X_i}}} \cdot {\bf{\dot{X_i}}} \\
 &= v_{cm}^2 +2{\bf{\dot{X_{cm}}}} \cdot {\bf{\dot{\rho_i}}} + l_i^2 \omega^2 \\
 \end{aligned}
 ```
+
 ### 全体の運動エネルギー
 
 ```math
@@ -641,9 +670,10 @@ y_{cm} \\
 \end{pmatrix} とする。
 ```
 
-![](figures/lesson-03/fig_06.JPG)
+![fig](figures/lesson-03/fig_06.JPG)
 
 ラグランジアン
+
 ```math
 \begin{aligned}
 L &= K - U \\
@@ -661,7 +691,7 @@ v_{cm}^2 = \dot{x}^2_{cm} + \dot{y}^2_{cm} より  \\
 
 ```math
 \begin{aligned}
-\frac{d}{dt}(\frac{\partial L}{\partial \dot{\boldsymbol{X}}}) - \frac{\partial L}{\partial \boldsymbol{X}} &= 0
+\frac{d}{dt}(\frac{\partial L}{\partial \dot{\bf{X}}}) - \frac{\partial L}{\partial \bf{X}} &= 0
 \end{aligned}
 ```
 
@@ -718,7 +748,7 @@ I\dot{\theta}
 
 ```math
 \begin{aligned}
-\frac{d}{dt}(\frac{\partial L}{\partial \dot{\boldsymbol{X}}}) &= \frac{d}{dt}\begin{pmatrix}
+\frac{d}{dt}(\frac{\partial L}{\partial \dot{\bf{X}}}) &= \frac{d}{dt}\begin{pmatrix}
 m\dot{x}_{cm} \\
 m\dot{y}_{cm} \\
 I\dot{\theta}
@@ -748,7 +778,7 @@ I\ddot{\theta}
 
 ```math
 \begin{aligned}
-\frac{d}{dt}(\frac{\partial L}{\partial \dot{\boldsymbol{X}}}) - \frac{\partial L}{\partial \boldsymbol{X}} &= 0 \\
+\frac{d}{dt}(\frac{\partial L}{\partial \dot{\bf{X}}}) - \frac{\partial L}{\partial \bf{X}} &= 0 \\
 
 \begin{pmatrix}
 m\ddot{x}_{cm} \\
@@ -774,15 +804,3 @@ mg \\
 
 * 重心は放物運動する
 * 重心周りは等速回転運動する
-
-
-
-
-
-
-
-
-```math
-\begin{aligned}
-\end{aligned}
-```
