@@ -633,11 +633,13 @@ K &= \sum_{i=1}^N \frac{1}{2}m_i v_i^2 \\
 
 ## 演習
 
-運動エネルギーを $K = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}I \dot{\theta}^2$ ポテンシャルエネルギーを $U = mgy_{cm}$ とする剛体の運動方程式を求めよ。ただし、座標は $ {\bf{X}} = \begin{pmatrix}
+```math
+運動エネルギーを K = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}I \dot{\theta}^2 ポテンシャルエネルギーを U = mgy_{cm} とする剛体の運動方程式を求めよ。ただし、座標は {\bf{X}} = \begin{pmatrix}
 x_{cm} \\
 y_{cm} \\
 \theta
-\end{pmatrix}$ とする。
+\end{pmatrix} とする。
+```
 
 ![](figures/lesson-03/fig_06.JPG)
 
