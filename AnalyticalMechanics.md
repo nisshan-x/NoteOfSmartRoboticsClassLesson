@@ -139,7 +139,7 @@ $\dot{x}$で偏微分する。
 \begin{aligned}
 \frac{\partial L}{\partial \dot{x}} &= \frac{\partial (\frac{1}{2}m\dot{x}^2 + mxg)}{\partial \dot{x}} \\
 &= \frac{\partial (\frac{1}{2}m\dot{x}^2)}{\partial \dot{x}} + \frac{\partial (mxg)}{\partial \dot{x}} \\
-&= \frac{1}{2} * 2 * m\dot{x} + 0 \\
+&= \frac{1}{2} \times 2 \times m\dot{x} + 0 \\
 &= m\dot{x}
 \end{aligned}
 ```
@@ -341,7 +341,7 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 
 ```math
 \begin{aligned}
-\frac{d}{dt}\sin x = \frac{\partial}{\partial x} \sin x * \frac{d}{dt}x = \cos x * \dot{x} = \dot{x} \cos x
+\frac{d}{dt}\sin x = \frac{\partial}{\partial x} \sin x \times \frac{d}{dt}x = \cos x \times \dot{x} = \dot{x} \cos x
 \end{aligned}
 ```
 
@@ -506,7 +506,7 @@ b_n
 ### 解答
 
 ```math
-K = \frac{1}{2}mv^2 = \frac{1}{2} * 60 * 4^2 = 480 [J] \\
+K = \frac{1}{2}mv^2 = \frac{1}{2} \times 60 \times 4^2 = 480 [J] \\
 1 [cal] \fallingdotseq 4 [J] なので、480 [J] \fallingdotseq 120 [J]
 ```
 
