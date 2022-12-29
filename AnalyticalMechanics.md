@@ -497,7 +497,7 @@ K = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}I\omega^2
 $I$ : 慣性モーメント \
 $\omega$ : 角速度
 
-**重心の並進運動**と**重心周りの回転運動**に分離可能 \
+**重心の並進運動**と**重心周りの回転運動**に分離可能
 
 ### 別表現
 
@@ -509,12 +509,15 @@ K = \frac{1}{2}m \dot{{\bf{X_{cm}}}}\cdot\dot{{\bf{X_{cm}}}} + \frac{1}{2}I\dot{
 
 ## 証明：剛体の運動エネルギー（2次元）
 
-剛体を質点の集まりとして考える
-↓　これまでの力学の延長線上で考える
-重心の並行移動と重心周りの回転を考える
-↓
-全質点の運動エネルギーの和 $K = \sum_{i=1}^{n}\frac{1}{2}m_iv_i^2$
-↓
+剛体を質点の集まりとして考える <br>
+↓　これまでの力学の延長線上で考える <br>
+重心の並行移動と重心周りの回転を考える <br>
+↓ <br>
+全質点の運動エネルギーの和
+```math
+K = \sum_{i=1}^{n}\frac{1}{2}m_iv_i^2
+```
+↓ <br>
 剛体の運動エネルギー
 ```math
 K = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}I\omega^2
@@ -630,11 +633,11 @@ K &= \sum_{i=1}^N \frac{1}{2}m_i v_i^2 \\
 
 ## 演習
 
-運動エネルギーを $K = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}I \dot{\theta}^2$ ポテンシャルエネルギーを $ U=mgy_{cm} $ とする剛体の運動方程式を求めよ。ただし、座標は $ {\bf{X}} = \begin{pmatrix}
+運動エネルギーを $K = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}I \dot{\theta}^2$ ポテンシャルエネルギーを $U = mgy_{cm}$ とする剛体の運動方程式を求めよ。ただし、座標は $ {\bf{X}} = \begin{pmatrix}
 x_{cm} \\
 y_{cm} \\
 \theta
-\end{pmatrix} $ とする。
+\end{pmatrix}$ とする。
 
 ![](figures/lesson-03/fig_06.JPG)
 
@@ -665,11 +668,7 @@ v_{cm}^2 = \dot{x}^2_{cm} + \dot{y}^2_{cm} より  \\
 ```math
 \begin{aligned}
 \frac{\partial L}{\partial \dot{\bf{X}}} &= \frac{\partial}{\partial \dot{\bf{X}}} (\frac{1}{2}m(\dot{x}^2_{cm} + \dot{y}^2_{cm}) + \frac{1}{2}I \dot{\theta}^2 - mgy_{cm}) \\
-&= \frac{1}{2}m \frac{\partial}{\partial \dot{\bf{X}}} \dot{x}_{cm}^2
-+ \frac{1}{2}m \frac{\partial}{\partial \dot{\bf{X}}} \dot{y}_{cm}^2
-+ \frac{1}{2}I\frac{\partial}{\partial \dot{\bf{X}}} \dot{\theta}^2
-- mg\frac{\partial}{\partial \dot{\bf{X}}} y_{cm} \\
-
+&= \frac{1}{2}m \frac{\partial}{\partial \dot{\bf{X}}} \dot{x}_{cm}^2 + \frac{1}{2}m \frac{\partial}{\partial \dot{\bf{X}}} \dot{y}_{cm}^2 + \frac{1}{2}I\frac{\partial}{\partial \dot{\bf{X}}} \dot{\theta}^2 - mg\frac{\partial}{\partial \dot{\bf{X}}} y_{cm} \\
 &= \frac{1}{2}m\begin{pmatrix}
 \frac{\partial}{\partial \dot{x}} \dot{x}_{cm}^2\\
 0 \\
@@ -690,7 +689,6 @@ v_{cm}^2 = \dot{x}^2_{cm} + \dot{y}^2_{cm} より  \\
 \frac{\partial}{\partial \dot{y}} y_{cm} \\
 0
 \end{pmatrix} \\
-
 &= \frac{1}{2}m\begin{pmatrix}
 2 \dot{x}_{cm} \\
 2 \dot{y}_{cm} \\
@@ -706,13 +704,11 @@ v_{cm}^2 = \dot{x}^2_{cm} + \dot{y}^2_{cm} より  \\
 0 \\
 0
 \end{pmatrix} \\
-
 &= \begin{pmatrix}
 m\dot{x}_{cm} \\
 m\dot{y}_{cm} \\
 I\dot{\theta}
 \end{pmatrix} \\
-
 \end{aligned}
 ```
 
