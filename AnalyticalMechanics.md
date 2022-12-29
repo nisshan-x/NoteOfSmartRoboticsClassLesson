@@ -67,7 +67,7 @@ $\ddot{x}$は運動、fは力を表す
 
 例： 高さhの位置にある質量mの物体
 
-![fig_01](figures/lesson-01/fig_01.JPG" width="50%">
+<img alt="fig" src="figures/lesson-01/fig_01.JPG" width="50%">
 
 ```math
 U = mgh
@@ -75,7 +75,7 @@ U = mgh
 
 例： バネ係数kにつながる質量mの物体がxの位置にあるとき
 
-![fig_02](figures/lesson-01/fig_02.JPG" width="50%">
+<img alt="fig" src="figures/lesson-01/fig_02.JPG" width="50%">
 
 ```math
 U = \frac{1}{2}kx^2
@@ -85,7 +85,7 @@ U = \frac{1}{2}kx^2
 
 例： 速さvで動く、質量mの物体
 
-![fig_03](figures/lesson-01/fig_03.JPG" width="50%">
+<img alt="fig" src="figures/lesson-01/fig_03.JPG" width="50%">
 
 ```math
 K = \frac{1}{2}mv^2
@@ -101,7 +101,7 @@ K = \frac{1}{2}mv^2
 
 質量mの物体が自由落下する。縦方向の位置はx(下向きに正)。
 
-![fig_04](figures/lesson-01/fig_04.JPG" width="50%">
+<img alt="fig" src="figures/lesson-01/fig_04.JPG" width="50%">
 
 ```math
 ポテンシャルエネルギー : U = -mxg \\
@@ -176,7 +176,7 @@ m\ddot{x} - mg = 0
 
 水平な面に置かれた質点ｍの物体がバネにつながっている。バネ係数k、位置は水平方向にx。
 
-![fig_02](figures/lesson-01/fig_02.JPG" width="50%">
+<img alt="fig" src="figures/lesson-01/fig_02.JPG" width="50%">
 
 ポテンシャルエネルギー
 
