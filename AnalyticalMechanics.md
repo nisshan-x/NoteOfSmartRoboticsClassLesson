@@ -67,7 +67,7 @@ $\ddot{x}$は運動、fは力を表す
 
 例： 高さhの位置にある質量mの物体
 
-![fig_01](figures/lesson-01/fig_01.JPG)
+![fig_01](figures/lesson-01/fig_01.JPG" width="50%">
 
 ```math
 U = mgh
@@ -75,7 +75,7 @@ U = mgh
 
 例： バネ係数kにつながる質量mの物体がxの位置にあるとき
 
-![fig_02](figures/lesson-01/fig_02.JPG)
+![fig_02](figures/lesson-01/fig_02.JPG" width="50%">
 
 ```math
 U = \frac{1}{2}kx^2
@@ -85,7 +85,7 @@ U = \frac{1}{2}kx^2
 
 例： 速さvで動く、質量mの物体
 
-![fig_03](figures/lesson-01/fig_03.JPG)
+![fig_03](figures/lesson-01/fig_03.JPG" width="50%">
 
 ```math
 K = \frac{1}{2}mv^2
@@ -101,7 +101,7 @@ K = \frac{1}{2}mv^2
 
 質量mの物体が自由落下する。縦方向の位置はx(下向きに正)。
 
-![fig_04](figures/lesson-01/fig_04.JPG)
+![fig_04](figures/lesson-01/fig_04.JPG" width="50%">
 
 ```math
 ポテンシャルエネルギー : U = -mxg \\
@@ -176,7 +176,7 @@ m\ddot{x} - mg = 0
 
 水平な面に置かれた質点ｍの物体がバネにつながっている。バネ係数k、位置は水平方向にx。
 
-![fig_02](figures/lesson-01/fig_02.JPG)
+![fig_02](figures/lesson-01/fig_02.JPG" width="50%">
 
 ポテンシャルエネルギー
 
@@ -218,7 +218,7 @@ m\ddot{x} + kx &= 0
 
 ## 質点の運動方程式 (2次元平面)
 
-![fig](figures/lesson-02/fig_01.JPG)
+<img alt="fig" src="figures/lesson-02/fig_01.JPG" width="50%">
 (重力はないものとする)
 
 ポテンシャルエネルギー
@@ -351,14 +351,14 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 
 ### 3関節ロボット
 
-![fig](figures/lesson-02/fig_02.JPG)
+<img alt="fig" src="figures/lesson-02/fig_02.JPG" width="50%">
 
 * 関節角度ベクトル $(q_1, q_2, q_3)$ は一般化座標
 * 手先位置 $(x, y)$ は一般化座標ではない（系の位置を決められない）
 
 ### 質点
 
-![fig](figures/lesson-02/fig_03.JPG)
+<img alt="fig" src="figures/lesson-02/fig_03.JPG" width="50%">
 
 * 座標 $(x, y, r, \theta)$ は一般化座標ではない（変数の数が最小ではない）
 * ベクトル $(x, y)$ は一般化座標
@@ -380,7 +380,7 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 
 ### 剛体
 
-![fig](figures/lesson-02/fig_04.JPG)
+<img alt="fig" src="figures/lesson-02/fig_04.JPG" width="50%">
 
 * 2次元平面： 3自由度
 * 3次元平面： 6自由度
@@ -393,7 +393,7 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 
 ### 2つの質点が棒で拘束
 
-![fig](figures/lesson-02/fig_05.JPG)
+<img alt="fig" src="figures/lesson-02/fig_05.JPG" width="50%">
 
 拘束条件
 
@@ -411,7 +411,7 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 
 ### ロボットの手先が壁に拘束
 
-![fig](figures/lesson-02/fig_06.JPG)
+<img alt="fig" src="figures/lesson-02/fig_06.JPG" width="50%">
 
 拘束条件
 
@@ -427,7 +427,7 @@ k_y(q_1, q_2, q_3) = y_{kabe}
 
 ## ロボットの先端リンクが壁に固定
 
-![fig](figures/lesson-02/fig_07.JPG)
+<img alt="fig" src="figures/lesson-02/fig_07.JPG" width="50%">
 
 手先の $x$ 座標、 $y$ 座標、手先角度 $\theta$ が拘束
 自由度
@@ -442,7 +442,7 @@ k_y(q_1, q_2, q_3) = y_{kabe}
 
 次の系の自由度を求めよう。
 
-![fig](figures/lesson-02/fig_08.JPG)
+<img alt="fig" src="figures/lesson-02/fig_08.JPG" width="50%">
 
 3関節ロボットと2関節ロボットに分割して考える。
 左側の手先と右側の手先の $x$ 座標、 $y$ 座標、手先角度 $\theta$ が拘束
@@ -462,7 +462,7 @@ k_y(q_1, q_2, q_3) = y_{kabe}
 
 運動エネルギーの定義： 運動する物体が持つエネルギー
 
-![fig](figures/lesson-03/fig_01.JPG)
+<img alt="fig" src="figures/lesson-03/fig_01.JPG" width="50%">
 
 ### 質点の運動エネルギー
 
@@ -514,7 +514,7 @@ K = \frac{1}{2}mv^2 = \frac{1}{2} * 60 * 4^2 = 480 [J] \\
 
 ### 剛体の運動エネルギー
 
-![fig](figures/lesson-03/fig_02.JPG)
+<img alt="fig" src="figures/lesson-03/fig_02.JPG" width="50%">
 
 ```math
 K = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}I\omega^2
@@ -527,7 +527,7 @@ $\omega$ : 角速度
 
 ### 別表現
 
-![fig](figures/lesson-03/fig_03.JPG)
+<img alt="fig" src="figures/lesson-03/fig_03.JPG" width="50%">
 
 ```math
 K = \frac{1}{2}m \dot{{\bf{X_{cm}}}}\cdot\dot{{\bf{X_{cm}}}} + \frac{1}{2}I\dot{\theta}^2
@@ -568,7 +568,7 @@ ${\bf{X_i}}$ : 各質点の位置ベクトル
 
 ### ２質点系での例
 
-![fig](figures/lesson-03/fig_04.JPG)
+<img alt="fig" src="figures/lesson-03/fig_04.JPG" width="50%">
 
 ```math
 x_{cm} = \frac{1}{m_1 + m_2}(m_1 x_1 + m_2 x_2) \\
@@ -576,7 +576,7 @@ x_{cm} = \frac{1}{m_1 + m_2}(m_1 x_1 + m_2 x_2) \\
 
 ## 各質点の位置
 
-![fig](figures/lesson-03/fig_05.JPG)
+<img alt="fig" src="figures/lesson-03/fig_05.JPG" width="50%">
 
 ### 各質点の位置 ${\bf{X_i}}$
 
@@ -670,7 +670,7 @@ y_{cm} \\
 \end{pmatrix} とする。
 ```
 
-![fig](figures/lesson-03/fig_06.JPG)
+<img alt="fig" src="figures/lesson-03/fig_06.JPG" width="50%">
 
 ラグランジアン
 
