@@ -993,9 +993,9 @@ e_x r_y - e_y r_x
 
 ```math
 \begin{aligned}
-K &= \frac{1}{2} m v_{cm}^2 + \frac{1}{2} {\boldsymbol{\omega}}^T I {\boldsymbol{\omega}} \\
-質点は&慣性テンソルがゼロなので、\\
-&= \frac{1}{2} m v_{cm}^2 \\
+K &= \frac{1}{2} m v^2 \\
+(質点は&慣性テンソルがゼロなので) \\
+&= \frac{1}{2} m v^2 \\
 &= \frac{1}{2} m {\bf{v}} \cdot {\bf{v}} \\
 &= \frac{1}{2} m (\omega {\bf{e}} \times {\bf{r}}) \cdot (\omega {\bf{e}} \times {\bf{r}}) \\
 \end{aligned}
