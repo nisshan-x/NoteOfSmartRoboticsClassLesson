@@ -508,8 +508,10 @@ b_n
 ### 解答
 
 ```math
+\begin{aligned}
 K = \frac{1}{2}mv^2 = \frac{1}{2} \times 60 \times 4^2 = 480 [J] \\
 1 [cal] \fallingdotseq 4 [J] なので、480 [J] \fallingdotseq 120 [J]
+\end{aligned}
 ```
 
 ## 剛体の運動エネルギー（2次元）
@@ -793,6 +795,7 @@ K = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}\omega^T I \omega^2
 ```
 
 ```math
+\begin{aligned}
 {\boldsymbol{\omega}} = \begin{pmatrix}
 \omega_x \\
 \omega_y \\
@@ -803,6 +806,7 @@ I_{xx} & I_{xy} & I_{xz} \\
 I_{yx} & I_{yy} & I_{yz} \\
 I_{zx} & I_{zy} & I_{zz}
 \end{pmatrix} : 慣性テンソル \\
+\end{aligned}
 ```
 
 回転軸によって慣性モーメントが違う
@@ -850,6 +854,7 @@ I_{zx} & I_{zy} & I_{zz}
 ```
 
 ```math
+\begin{aligned}
 ただし {\boldsymbol{\omega}} \times {\bf{r}}_i = \begin{pmatrix}
 \omega_y r_{zi} + \omega_z r_{yi} \\
 \omega_z r_{xi} + \omega_x r_{zi} \\
@@ -865,6 +870,7 @@ r_{yi}^2 + r_{zi}^2 & -r_{xi}r_{yi} & -r_{zi}r_{xi} \\
 -r_{xi}r_{yi} & r_{xi}^2 + r_{zi}^2 & -r_{yi}r_{zi} \\
 -r_{zi}r_{xi} & -r_{yi}r_{zi} & r_{xi}^2 + r_{yi}^2
 \end{pmatrix} とする
+\end{aligned}
 ```
 
 ## 外積のおさらい
@@ -906,9 +912,11 @@ v = \omega r \sin \theta \\
 ### 質点の速度
 
 ```math
-{\bf{v}}_{ri} = {\boldsymbol{\omega}} \times {\bf{r}}_i \\
-{\bf{v}}_{ri} : 重心から見た質点の速度ベクトル \\
-{\bf{r}}_i : 剛体座標系から見た質点の位置ベクトル
+\begin{aligned}
+{\bf{v}}_{ri} &= {\boldsymbol{\omega}} \times {\bf{r}}_i \\
+{\bf{v}}_{ri} &: 重心から見た質点の速度ベクトル \\
+{\bf{r}}_i &: 剛体座標系から見た質点の位置ベクトル
+\end{aligned}
 ```
 
 ```math
@@ -936,7 +944,7 @@ v = \omega r \sin \theta \\
 
 ```math
 \begin{aligned}
-v_i^2 &= \dot{{\bf{X}}}_i \cdot \dot{{\bf{X}}}_i
+v_i^2 &= \dot{{\bf{X}}}_i \cdot \dot{{\bf{X}}}_i \\
 &= v_{cm}^2 + 2\dot{{\bf{X}}}_{cm} \cdot \dot{{\boldsymbol{\rho}}}_i + \dot{{\boldsymbol{\rho}}}_i \cdot \dot{{\boldsymbol{\rho}}}_i
 \end{aligned}
 ```
@@ -958,9 +966,11 @@ K &= \sum_{i=1}^N \frac{1}{2}m_i v_i^2 \\
 ### 問い
 
 ```math
+\begin{aligned}
 質量 m の質点の位置を {\bf{r}} = \begin{pmatrix}r_x\\r_y\\r_z\end{pmatrix} とし、\\
 その質点がベクトル {\bf{e}} = \begin{pmatrix}e_x\\e_y\\e_z\end{pmatrix} を回転軸として角速度 ω で回転しているとき、\\
 質点の速度 v と運動エネルギー K を求めよ
+\end{aligned}
 ```
 
 ### 解答
@@ -969,8 +979,8 @@ K &= \sum_{i=1}^N \frac{1}{2}m_i v_i^2 \\
 
 ```math
 \begin{aligned}
-{\bf{v}} &= \omega {\bf{e}} \times {\bf{r}}
-&= \omega \begin{pmatrix}e_x\\e_y\\e_z\end{pmatrix} \times \begin{pmatrix}r_x\\r_y\\r_z\end{pmatrix}
+{\bf{v}} &= \omega {\bf{e}} \times {\bf{r}} \\
+&= \omega \begin{pmatrix}e_x\\e_y\\e_z\end{pmatrix} \times \begin{pmatrix}r_x\\r_y\\r_z\end{pmatrix} \\
 &= \omega \begin{pmatrix}
 e_y r_z - e_z r_y \\
 e_z r_x - e_x r_z \\
