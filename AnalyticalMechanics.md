@@ -167,9 +167,11 @@ $\dot{x}$で偏微分する。
 よってラグランジュの運動方程式は
 
 ```math
+\begin{aligned}
 \frac{d}{dt}(\frac{\partial L}{\partial \dot{x}}) - \frac{\partial L}{\partial x} = 0
 \\
 m\ddot{x} - mg = 0
+\end{aligned}
 ```
 
 ### ラグランジュの運動方程式の例　２
@@ -857,12 +859,12 @@ I_{zx} & I_{zy} & I_{zz}
 0 & r_{zi} & -r_{yi} \\
 -r_{zi} & 0 & r_{xi} \\
 r_{yi} & -r_{xi} & 0
-\end{pmatrix} とする\\
+\end{pmatrix} とする \\
 ただし \bar{{\bf{R}}}_i = \begin{pmatrix}
 r_{yi}^2 + r_{zi}^2 & -r_{xi}r_{yi} & -r_{zi}r_{xi} \\
 -r_{xi}r_{yi} & r_{xi}^2 + r_{zi}^2 & -r_{yi}r_{zi} \\
 -r_{zi}r_{xi} & -r_{yi}r_{zi} & r_{xi}^2 + r_{yi}^2
-\end{pmatrix}
+\end{pmatrix} とする
 ```
 
 ## 外積のおさらい
@@ -874,7 +876,7 @@ r_{yi}^2 + r_{zi}^2 & -r_{xi}r_{yi} & -r_{zi}r_{xi} \\
 ```math
 \begin{aligned}
 {\bf{c}} &= {\bf{b}} \times {\bf{a}} \\
-&= \begin{pmatrix}b_x\\b_y\\b_z\end{pmatrix} \times \begin{pmatrix}a_x\\a_y\\a_z\end{pmatrix}
+&= \begin{pmatrix}b_x\\b_y\\b_z\end{pmatrix} \times \begin{pmatrix}a_x\\a_y\\a_z\end{pmatrix} \\
 &= \begin{pmatrix}
 b_y a_z - b_z a_y\\
 b_z a_x - b_x a_z\\
@@ -887,7 +889,13 @@ b_x a_y - b_y a_x
 
 ```math
 v = \omega r \sin \theta \\
+```
+
+```math
 {\bf{v}} = \omega {\bf{e}} \times {\bf{r}} \\
+```
+
+```math
 ただし |{\bf{e}}| = 1
 ```
 
