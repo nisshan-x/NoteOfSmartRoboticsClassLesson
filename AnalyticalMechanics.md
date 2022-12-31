@@ -1013,7 +1013,7 @@ K &= \frac{1}{2} m v^2 \\
 
 <img alt="fig" src="figures/lesson-05/fig_01.JPG" width="50%">
 
-ポテンシャルエネルギー
+ポテンシャルエネルギー<br>
 ばねによって力が蓄えられる。
 
 ```math
@@ -1024,7 +1024,7 @@ U = \frac{1}{2}kx^2
 
 <img alt="fig" src="figures/lesson-05/fig_02.JPG" width="50%">
 
-ポテンシャルエネルギー
+ポテンシャルエネルギー<br>
 重力によって力が蓄えられる。
 
 ```math
@@ -1075,7 +1075,7 @@ y_{cm} = \frac{1}{m} \sum_{i=1}^n m_i y_i
 
 <img alt="fig" src="figures/lesson-05/fig_05.JPG" width="50%">
 
-質点に**場による力** $f$ が作用している場合を考える。このとき、質点が座標 ${\bf{x}_{\bf{A}}}$ から ${\bf{x}_{\bf{B}}}$ まで移動した。
+質点に**場による力** $f$ が作用している場合を考える。このとき、質点が座標 ${\bf{x}_{\bf{A}}}$ から ${\bf{x}_{\bf{B}}}$ まで移動した。<br>
 
 力 $f$ が質点にする仕事
 
@@ -1085,10 +1085,10 @@ W = \int_{\bf{x}_{\bf{A}}}^{\bf{x}_{\bf{B}}} f \cdot d{\bf{x}}
 \end{aligned}
 ```
 
-仕事 : エネルギーと同じ意味。力学では、ある力が生じさせるエネルギーのことを力が成す仕事と呼ぶ。
+仕事 : エネルギーと同じ意味。力学では、ある力が生じさせるエネルギーのことを力が成す仕事と呼ぶ。<br>
 
-仕事 $W$ が ${\bf{x}_{\bf{A}}}$ から ${\bf{x}_{\bf{B}}}$ までの経路によらず一定である場合、力 $f$ を**保存力**という。
-逆に力が一定ではなく変化する場合、ポテンシャルエネルギーを導出できない。
+仕事 $W$ が ${\bf{x}_{\bf{A}}}$ から ${\bf{x}_{\bf{B}}}$ までの経路によらず一定である場合、力 $f$ を**保存力**という。<br>
+逆に力が一定ではなく変化する場合、ポテンシャルエネルギーを導出できない。<br>
 
 力 $f$ が保存力のとき、
 
@@ -1103,9 +1103,9 @@ U : ポテンシャルエネルギー
 
 <img alt="fig" src="figures/lesson-05/fig_02.JPG" width="50%">
 
-重力によるポテンシャルエネルギー
+重力によるポテンシャルエネルギー<br>
 
-場(重力)による力 $f = mg$
+場(重力)による力 $f = mg$<br>
 
 重力が質点にする仕事
 
@@ -1128,7 +1128,7 @@ U(x) = -mgx
 
 <img alt="fig" src="figures/lesson-05/fig_01.JPG" width="50%">
 
-場(バネ)による力 $f = -kx$ (フックの法則[wikipedia](https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%83%E3%82%AF%E3%81%AE%E6%B3%95%E5%89%87))
+場(バネ)による力 $f = -kx$ (フックの法則[wikipedia](https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%83%E3%82%AF%E3%81%AE%E6%B3%95%E5%89%87))<br>
 
 バネが質点にする仕事
 
@@ -1154,16 +1154,18 @@ Uの全微分
 ```math
 \begin{aligned}
 \partial U &= \frac{\partial}{\partial {\bf{x}}} U \cdot d{\bf{x}} \\
-&= \frac{\partial}{\partial x}Udx + \frac{\partial}{\partial y}Udy + \frac{\partial}{\partial z}Udz　 \tag{1}
+&= \frac{\partial}{\partial x}Udx + \frac{\partial}{\partial y}Udy + \frac{\partial}{\partial z}Udz
 \end{aligned}
+\tag{1}
 ```
 
 ```math
 \begin{aligned}
 \partial U &= U({\bf{x}} + d {\bf{x}}) - U({\bf{x}}) \\
 &= -f \cdot d{\bf{x}} \\
-&= -f_xdx - f_ydy - f_zdz　 \tag{2}
+&= -f_xdx - f_ydy - f_zdz
 \end{aligned}
+\tag{2}
 ```
 
 (1)と(2)より、保存力 $f$ の性質
@@ -1249,11 +1251,11 @@ U({\bf{x}}) &= \frac{1}{4}k_1x^4 + \frac{1}{2}k_2y^2 \\
 
 <img alt="fig" src="figures/lesson-05/fig_01.JPG" width="50%">
 
-運動エネルギー $K=\frac{1}{2}m\dot{x}^2$
-ポテンシャルエネルギー $U=\frac{1}{2}kx^2$
-全エネルギー $V = K + U$
-運動方程式 $m \ddot{x} + kx = 0$
-
+運動エネルギー $K=\frac{1}{2}m\dot{x}^2$ <br>
+ポテンシャルエネルギー $U=\frac{1}{2}kx^2$ <br>
+全エネルギー $V = K + U$ <br>
+運動方程式 $m \ddot{x} + kx = 0$ <br>
+ <br>
 エネルギーの時間変化
 
 ```math
@@ -1273,19 +1275,19 @@ U({\bf{x}}) &= \frac{1}{4}k_1x^4 + \frac{1}{2}k_2y^2 \\
 
 ### 問い
 
-振り子運動に関するエネルギー保存則を導出せよ
-
-運動エネルギー $K=\frac{1}{2}m(r\dot{\theta})^2$
-ポテンシャルエネルギー $U=mg(r - r \cos \theta)$
-全エネルギー $V = K + U$
-運動方程式 ?
-エネルギーの時間変化 ?
+振り子運動に関するエネルギー保存則を導出せよ <br>
+ <br>
+運動エネルギー $K=\frac{1}{2}m(r\dot{\theta})^2$ <br>
+ポテンシャルエネルギー $U=mg(r - r \cos \theta)$ <br>
+全エネルギー $V = K + U$ <br>
+運動方程式 ? <br>
+エネルギーの時間変化 ? <br>
 
 ### 解答
 
-運動方程式
-
-ラグランジアン
+運動方程式 <br>
+ <br>
+ラグランジアン <br>
 
 ```math
 \begin{aligned}
