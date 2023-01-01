@@ -1367,7 +1367,9 @@ f_1 l_1 = f_1 l_2
 
 <img alt="fig" src="figures/lesson-06/fig_03.JPG" width="50%">
 
-質点に働いている力 $fi$ の合計 $\sum_{i=1}^n f_i$ が $0$ のとき、系は釣り合いの状態
+```math
+質点に働いている力 f_i の合計 \sum_{i=1}^n f_i が 0 のとき、系は釣り合いの状態
+```
 
 ## 釣り合いの一般化
 
@@ -1407,7 +1409,9 @@ $\delta {\bf{X}}_i$ : 各質点の仮想変位 (拘束に矛盾しない微小�
 \end{aligned}
 ```
 
-よって、 $\delta W = \sum_{i=1}^n f_i \cdot \delta {\bf{x}}_i = 0$ であれば系全体は釣り合う
+```math
+よって、 \delta W = \sum_{i=1}^n f_i \cdot \delta {\bf{x}}_i = 0 であれば系全体は釣り合う
+```
 
 ## 仮想仕事の原理の適用例
 
