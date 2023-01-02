@@ -1879,7 +1879,7 @@ $\delta {\bf{x}}_i$ : 各質点の仮想変位 (拘束に矛盾しない微小�
 変数 $x$ と関数 $y(x)$ , その微分
 
 ```math
-y^{\prime} = \frac{d}{dx}y(x)$
+y^{\prime} = \frac{d}{dx}y(x)
 ```
 
 からなる関数 $f(x, y, y^{\prime})$ を $x$ で定積分した関数 $I = \int_{x_1}^{x_2} f(x, y, y^{\prime}) dx$ を汎関数と呼ぶ。
