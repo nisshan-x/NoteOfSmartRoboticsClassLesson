@@ -1876,21 +1876,23 @@ $\delta {\bf{x}}_i$ : 各質点の仮想変位 (拘束に矛盾しない微小�
 
 関数の関数を積分したもの <br>
 
-変数 $x$ と関数 $y(x)$ 、その微分 $y' = \frac{d}{dx}y(x)$ からなる関数 $f(x, y, y')$ を $x$ で定積分した関数 $I = \int_{x_1}^{x_2} f(x, y, y') dx$ を汎関数と呼ぶ。 <br>
-$y'$ : $y$ を $x$ で微分したもの
+```math
+変数 x と関数 y(x) 、その微分 y^{\prime} = \frac{d}{dx}y(x) からなる関数 f(x, y, y^{\prime}) を x で定積分した関数 I = \int_{x_1}^{x_2} f(x, y, y^{\prime}) dx を汎関数と呼ぶ。 \\
+y^{\prime} : y を x で微分したもの
+```
 
 ### 例
 
 ```math
-I = \int_{x_1}^{x_2} f(y^2+y'^2+x) dx
+I = \int_{x_1}^{x_2} f(y^2+y^{\prime 2}+x) dx
 ```
 
 ## 変分法
 
 ```math
-汎関数 I = \int_{x_1}^{x_2} f(x, y, y') dx の極値は \\
+汎関数 I = \int_{x_1}^{x_2} f(x, y, y^{\prime}) dx の極値は \\
 オイラーの微分方程式 \\
-\frac{d}{dx}(\frac{\partial}{\partial y'}f) - \frac{\partial}{\partial y}f = 0 \\
+\frac{d}{dx}(\frac{\partial}{\partial y^{\prime}}f) - \frac{\partial}{\partial y}f = 0 \\
 により求まる。 \\
 このとき、 \delta I = 0 となり、この \delta I を I の変分と呼ぶ。
 ```
@@ -1927,7 +1929,7 @@ $\delta I$ は関数 $y$ の形が微小に変化したときの汎関数 $I$ �
 dl &= \sqrt{(dx)^2 + (\frac{dy}{dx}dx)^2} \\
 &= \sqrt{(dx)^2 + (dy)^2} \\
 &= \sqrt{1 + (\frac{dy}{dx})^2}dx \\
-&= \sqrt{1 + y'^2}dx
+&= \sqrt{1 + y^{\prime 2}}dx
 \end{aligned}
 ```
 
@@ -1935,7 +1937,7 @@ dl &= \sqrt{(dx)^2 + (\frac{dy}{dx}dx)^2} \\
 
 ```math
 \begin{aligned}
-l = \int_A^B dl = \int_{x_1}^{x_2} \sqrt{1 + y'^2}dx
+l = \int_A^B dl = \int_{x_1}^{x_2} \sqrt{1 + y^{\prime 2}}dx
 \end{aligned}
 ```
 
@@ -1943,14 +1945,14 @@ $l$ の極値
 
 ```math
 \begin{aligned}
-l = \int_{x_1}^{x_2} fdx , f = \sqrt{1 + y'^2} より \\
-\frac{d}{dx}(\frac{\partial}{\partial y'}f) - \frac{\partial}{\partial y}f &= 0 \\
-\frac{d}{dx}(\frac{\partial \sqrt{1 + y'^2}}{\partial y'}) - \frac{\partial \sqrt{1 + y'^2}}{\partial y} &= 0 \\
-\frac{d}{dx}(\frac{y'}{\sqrt{1 + y'^2}}) - 0 &= 0 \\
+l = \int_{x_1}^{x_2} fdx , f = \sqrt{1 + y^{\prime 2}} より \\
+\frac{d}{dx}(\frac{\partial}{\partial y^{\prime}}f) - \frac{\partial}{\partial y}f &= 0 \\
+\frac{d}{dx}(\frac{\partial \sqrt{1 + y^{\prime 2}}}{\partial y^{\prime}}) - \frac{\partial \sqrt{1 + y^{\prime 2}}}{\partial y} &= 0 \\
+\frac{d}{dx}(\frac{y^{\prime}}{\sqrt{1 + y^{\prime 2}}}) - 0 &= 0 \\
 \end{aligned}
 ```
 
-よって、 $y' =$ 定数 であれば $l$ は極値 <br>
+よって、 $y^{\prime} =$ 定数 であれば $l$ は極値 <br>
 ↓ <br>
 直線のとき、最短経路
 
