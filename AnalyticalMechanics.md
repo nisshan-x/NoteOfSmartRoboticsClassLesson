@@ -1707,6 +1707,16 @@ l_1 \cos q_1 + l_2 \cos (q_1 + q_2) & l_2 \cos (q_1 + q_2)
 * [Youtube](https://www.youtube.com/watch?v=S-XDelGLDcQ&t=2s)
 * [PDF](http:/www.ritsumei.ac.jp/~uemura-m/AnalyticalMechanics/AnalyticalMechanics7thWeek.pdf)
 
+## aa
+
+<img alt="fig" src="figures/lesson-07/fig_01.JPG" width="50%">
+<img alt="fig" src="figures/lesson-07/fig_02.JPG" width="50%">
+<img alt="fig" src="figures/lesson-07/fig_03.JPG" width="50%">
+<img alt="fig" src="figures/lesson-07/fig_04.JPG" width="50%">
+<img alt="fig" src="figures/lesson-07/fig_05.JPG" width="50%">
+<img alt="fig" src="figures/lesson-07/fig_06.JPG" width="50%">
+<img alt="fig" src="figures/lesson-07/fig_07.JPG" width="50%">
+
 ## 以下Latex数式のコピペ用
 
 ```math
@@ -1755,4 +1765,4 @@ l_1 \cos q_1 + l_2 \cos (q_1 + q_2) & l_2 \cos (q_1 + q_2)
 # 第１５週（最終週）　拘束がある場合の運動方程式②
 
 * [Youtube](https://www.youtube.com/watch?v=tU6BGZikVWU)
-* [PDF](http:/www.ritsumei.ac.jp/~uemura-m/AnalyticalMechanics/AnalyticalMechanics15thWeek.pdf
+* [PDF](http:/www.ritsumei.ac.jp/~uemura-m/AnalyticalMechanics/AnalyticalMechanics15thWeek.pdf)
