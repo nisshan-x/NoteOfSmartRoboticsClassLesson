@@ -4,7 +4,7 @@
 
 ## インデックス
 
-* [解析力学](AnalyticalMechanics.md)
+* [解析力学](AnalyticalMechanics_index.md)
 
 ## 免責事項
 
