@@ -7,7 +7,7 @@
 
 ## 剛体の運動エネルギー
 
-<img alt="fig" src="figures/lesson-04/fig_01.JPG" width="50%">
+<img alt="fig" src="figures/lecture-04/fig_01.JPG" width="50%">
 
 ```math
 K = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}\omega^T I \omega^2
@@ -53,7 +53,7 @@ I_{zx} & I_{zy} & I_{zz}
 
 ## 各質点の速度
 
-<img alt="fig" src="figures/lesson-04/fig_02.JPG" width="50%">
+<img alt="fig" src="figures/lecture-04/fig_02.JPG" width="50%">
 
 ### 質点の速度
 
@@ -94,7 +94,7 @@ r_{yi}^2 + r_{zi}^2 & -r_{xi}r_{yi} & -r_{zi}r_{xi} \\
 
 ## 外積のおさらい
 
-<img alt="fig" src="figures/lesson-04/fig_03.JPG" width="50%">
+<img alt="fig" src="figures/lecture-04/fig_03.JPG" width="50%">
 
 ### 外積
 
@@ -126,7 +126,7 @@ v = \omega r \sin \theta \\
 
 ## 外積による3次元速度の計算(続き)
 
-<img alt="fig" src="figures/lesson-04/fig_02.JPG" width="50%">
+<img alt="fig" src="figures/lecture-04/fig_02.JPG" width="50%">
 
 ### 質点の速度
 

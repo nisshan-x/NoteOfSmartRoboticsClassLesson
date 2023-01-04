@@ -11,7 +11,7 @@
 
 ## ダランベールの原理考え方
 
-<img alt="fig" src="figures/lesson-07/fig_01.JPG" width="50%">
+<img alt="fig" src="figures/lecture-07/fig_01.JPG" width="50%">
 
 質点の運動方程式
 
@@ -25,7 +25,7 @@ m \ddot{x} = f
 
 ### ダランベールの原理
 
-<img alt="fig" src="figures/lesson-07/fig_02.JPG" width="50%">
+<img alt="fig" src="figures/lecture-07/fig_02.JPG" width="50%">
 
 $-m\ddot{x}$ を力(慣性力)とみなし、慣性力を含めた全体の力が釣り合っているとみなす
 
@@ -41,7 +41,7 @@ $-m\ddot{x}$ を力(慣性力)とみなし、慣性力を含めた全体の力�
 
 ### 坂を転がる質点
 
-<img alt="fig" src="figures/lesson-07/fig_03.JPG" width="50%">
+<img alt="fig" src="figures/lecture-07/fig_03.JPG" width="50%">
 
 重力、慣性力、床反力が釣り合う <br>
 ↓ <br>
@@ -73,7 +73,7 @@ m \begin{pmatrix}
 
 ## 演習
 
-<img alt="fig" src="figures/lesson-07/fig_03.JPG" width="50%">
+<img alt="fig" src="figures/lecture-07/fig_03.JPG" width="50%">
 
 ### 問い
 
@@ -113,7 +113,7 @@ m\ddot{x} &= - mg \sin \theta \\
 
 ## 仮想仕事の原理の動力学への拡張
 
-<img alt="fig" src="figures/lesson-06/fig_05.JPG" width="50%">
+<img alt="fig" src="figures/lecture-06/fig_05.JPG" width="50%">
 
 質点 $i$ に拘束力 $s_i$ と外力 $f_i$ が作用しているとき
 
@@ -206,7 +206,7 @@ $\delta I$ は関数 $y$ の形が微小に変化したときの汎関数 $I$ �
 ↓ <br>
 最適な関数の形を求める問題に有効！ <br>
 
-<img alt="fig" src="figures/lesson-07/fig_04.JPG" width="50%">
+<img alt="fig" src="figures/lecture-07/fig_04.JPG" width="50%">
 
 ## 変分法による最短経路問題
 
@@ -214,13 +214,13 @@ $\delta I$ は関数 $y$ の形が微小に変化したときの汎関数 $I$ �
 
 ２次元平面上の点Ａと点Ｂを結ぶ最短経路を示せ
 
-<img alt="fig" src="figures/lesson-07/fig_05.JPG" width="50%">
+<img alt="fig" src="figures/lecture-07/fig_05.JPG" width="50%">
 
 直感的に最短経路は直線であるが、これを変分法で理論的に説明する。
 
 ## 変分法による最短経路問題の解法
 
-<img alt="fig" src="figures/lesson-07/fig_06.JPG" width="50%">
+<img alt="fig" src="figures/lecture-07/fig_06.JPG" width="50%">
 
 微小区間 $dx$ における経路の長さ $dl$
 
@@ -257,4 +257,4 @@ l = \int_{x_1}^{x_2} fdx , f = \sqrt{1 + y^{\prime 2}} より \\
 ↓ <br>
 直線のとき、最短経路
 
-<img alt="fig" src="figures/lesson-07/fig_07.JPG" width="50%">
+<img alt="fig" src="figures/lecture-07/fig_07.JPG" width="50%">

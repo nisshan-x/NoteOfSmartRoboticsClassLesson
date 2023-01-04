@@ -5,7 +5,7 @@
 
 ## 質点の運動方程式 (2次元平面)
 
-<img alt="fig" src="figures/lesson-02/fig_01.JPG" width="50%">
+<img alt="fig" src="figures/lecture-02/fig_01.JPG" width="50%">
 (重力はないものとする)
 
 ポテンシャルエネルギー
@@ -138,14 +138,14 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 
 ### 3関節ロボット
 
-<img alt="fig" src="figures/lesson-02/fig_02.JPG" width="50%">
+<img alt="fig" src="figures/lecture-02/fig_02.JPG" width="50%">
 
 * 関節角度ベクトル $(q_1, q_2, q_3)$ は一般化座標
 * 手先位置 $(x, y)$ は一般化座標ではない（系の位置を決められない）
 
 ### 質点
 
-<img alt="fig" src="figures/lesson-02/fig_03.JPG" width="50%">
+<img alt="fig" src="figures/lecture-02/fig_03.JPG" width="50%">
 
 * 座標 $(x, y, r, \theta)$ は一般化座標ではない（変数の数が最小ではない）
 * ベクトル $(x, y)$ は一般化座標
@@ -167,7 +167,7 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 
 ### 剛体
 
-<img alt="fig" src="figures/lesson-02/fig_04.JPG" width="50%">
+<img alt="fig" src="figures/lecture-02/fig_04.JPG" width="50%">
 
 * 2次元平面： 3自由度
 * 3次元平面： 6自由度
@@ -180,7 +180,7 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 
 ### 2つの質点が棒で拘束
 
-<img alt="fig" src="figures/lesson-02/fig_05.JPG" width="50%">
+<img alt="fig" src="figures/lecture-02/fig_05.JPG" width="50%">
 
 拘束条件
 
@@ -198,7 +198,7 @@ f = 7x(t)+3\dot{x}(t)+4y(x(t))+2t
 
 ### ロボットの手先が壁に拘束
 
-<img alt="fig" src="figures/lesson-02/fig_06.JPG" width="50%">
+<img alt="fig" src="figures/lecture-02/fig_06.JPG" width="50%">
 
 拘束条件
 
@@ -214,7 +214,7 @@ k_y(q_1, q_2, q_3) = y_{kabe}
 
 ## ロボットの先端リンクが壁に固定
 
-<img alt="fig" src="figures/lesson-02/fig_07.JPG" width="50%">
+<img alt="fig" src="figures/lecture-02/fig_07.JPG" width="50%">
 
 手先の $x$ 座標、 $y$ 座標、手先角度 $\theta$ が拘束
 自由度
@@ -229,7 +229,7 @@ k_y(q_1, q_2, q_3) = y_{kabe}
 
 次の系の自由度を求めよう。
 
-<img alt="fig" src="figures/lesson-02/fig_08.JPG" width="50%">
+<img alt="fig" src="figures/lecture-02/fig_08.JPG" width="50%">
 
 3関節ロボットと2関節ロボットに分割して考える。
 左側の手先と右側の手先の $x$ 座標、 $y$ 座標、手先角度 $\theta$ が拘束

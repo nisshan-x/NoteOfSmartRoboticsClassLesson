@@ -67,7 +67,7 @@ $\ddot{x}$は運動、fは力を表す
 
 例： 高さhの位置にある質量mの物体
 
-<img alt="fig" src="figures/lesson-01/fig_01.JPG" width="50%">
+<img alt="fig" src="figures/lecture-01/fig_01.JPG" width="50%">
 
 ```math
 U = mgh
@@ -75,7 +75,7 @@ U = mgh
 
 例： バネ係数kにつながる質量mの物体がxの位置にあるとき
 
-<img alt="fig" src="figures/lesson-01/fig_02.JPG" width="50%">
+<img alt="fig" src="figures/lecture-01/fig_02.JPG" width="50%">
 
 ```math
 U = \frac{1}{2}kx^2
@@ -85,7 +85,7 @@ U = \frac{1}{2}kx^2
 
 例： 速さvで動く、質量mの物体
 
-<img alt="fig" src="figures/lesson-01/fig_03.JPG" width="50%">
+<img alt="fig" src="figures/lecture-01/fig_03.JPG" width="50%">
 
 ```math
 K = \frac{1}{2}mv^2
@@ -101,7 +101,7 @@ K = \frac{1}{2}mv^2
 
 質量mの物体が自由落下する。縦方向の位置はx(下向きに正)。
 
-<img alt="fig" src="figures/lesson-01/fig_04.JPG" width="50%">
+<img alt="fig" src="figures/lecture-01/fig_04.JPG" width="50%">
 
 ```math
 ポテンシャルエネルギー : U = -mxg \\
@@ -180,7 +180,7 @@ m\ddot{x} - mg = 0
 
 質点の定義 : 質点（しつてん、英語: point mass）とは力学的概念で、位置が一意的に定まり質量を持つ運動の要素だが、それ以外の、体積・変形・角速度などの内部自由度を一切持たないものと定義される。[wikipedia](https://ja.wikipedia.org/wiki/%E8%B3%AA%E7%82%B9)
 
-<img alt="fig" src="figures/lesson-01/fig_02.JPG" width="50%">
+<img alt="fig" src="figures/lecture-01/fig_02.JPG" width="50%">
 
 ポテンシャルエネルギー
 

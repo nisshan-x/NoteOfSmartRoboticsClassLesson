@@ -7,7 +7,7 @@
 
 力を発生する場によって蓄えられるエネルギー
 
-<img alt="fig" src="figures/lesson-05/fig_01.JPG" width="50%">
+<img alt="fig" src="figures/lecture-05/fig_01.JPG" width="50%">
 
 ポテンシャルエネルギー<br>
 ばねによって力が蓄えられる。
@@ -18,7 +18,7 @@ U = \frac{1}{2}kx^2
 \end{aligned}
 ```
 
-<img alt="fig" src="figures/lesson-05/fig_02.JPG" width="50%">
+<img alt="fig" src="figures/lecture-05/fig_02.JPG" width="50%">
 
 ポテンシャルエネルギー<br>
 重力によって力が蓄えられる。
@@ -31,7 +31,7 @@ U = -mgx
 
 ## 演習
 
-<img alt="fig" src="figures/lesson-05/fig_03.JPG" width="50%">
+<img alt="fig" src="figures/lecture-05/fig_03.JPG" width="50%">
 
 ### 問い
 
@@ -48,7 +48,7 @@ x \fallingdotseq 2.0 [m]
 
 ## 剛体の位置エネルギー
 
-<img alt="fig" src="figures/lesson-05/fig_04.JPG" width="50%">
+<img alt="fig" src="figures/lecture-05/fig_04.JPG" width="50%">
 
 ### 剛体の位置エネルギー
 
@@ -69,7 +69,7 @@ y_{cm} = \frac{1}{m} \sum_{i=1}^n m_i y_i
 
 ## ポテンシャルエネルギーの導出
 
-<img alt="fig" src="figures/lesson-05/fig_05.JPG" width="50%">
+<img alt="fig" src="figures/lecture-05/fig_05.JPG" width="50%">
 
 質点に**場による力** $f$ が作用している場合を考える。このとき、質点が座標 ${\bf{x}_A}$ から ${\bf{x}_B}$ まで移動した。<br>
 
@@ -97,7 +97,7 @@ U : ポテンシャルエネルギー
 
 ## 例題（重力場）
 
-<img alt="fig" src="figures/lesson-05/fig_02.JPG" width="50%">
+<img alt="fig" src="figures/lecture-05/fig_02.JPG" width="50%">
 
 重力によるポテンシャルエネルギー<br>
 
@@ -122,7 +122,7 @@ U(x) = -mgx
 
 ## 例題（バネ）
 
-<img alt="fig" src="figures/lesson-05/fig_01.JPG" width="50%">
+<img alt="fig" src="figures/lecture-05/fig_01.JPG" width="50%">
 
 場(バネ)による力 $f = -kx$ (フックの法則[wikipedia](https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%83%E3%82%AF%E3%81%AE%E6%B3%95%E5%89%87))<br>
 
@@ -245,7 +245,7 @@ U({\bf{x}}) &= \frac{1}{4}k_1x^4 + \frac{1}{2}k_2y^2 \\
 
 ## エネルギー保存則の例
 
-<img alt="fig" src="figures/lesson-05/fig_01.JPG" width="50%">
+<img alt="fig" src="figures/lecture-05/fig_01.JPG" width="50%">
 
 運動エネルギー $K=\frac{1}{2}m\dot{x}^2$ <br>
 ポテンシャルエネルギー $U=\frac{1}{2}kx^2$ <br>
@@ -267,7 +267,7 @@ U({\bf{x}}) &= \frac{1}{4}k_1x^4 + \frac{1}{2}k_2y^2 \\
 
 ## 演習
 
-<img alt="fig" src="figures/lesson-05/fig_06.JPG" width="50%">
+<img alt="fig" src="figures/lecture-05/fig_06.JPG" width="50%">
 
 ### 問い
 

@@ -7,7 +7,7 @@
 
 運動エネルギーの定義： 運動する物体が持つエネルギー
 
-<img alt="fig" src="figures/lesson-03/fig_01.JPG" width="50%">
+<img alt="fig" src="figures/lecture-03/fig_01.JPG" width="50%">
 
 ### 質点の運動エネルギー
 
@@ -61,7 +61,7 @@ K = \frac{1}{2}mv^2 = \frac{1}{2} \times 60 \times 4^2 = 480 [J] \\
 
 ### 剛体の運動エネルギー
 
-<img alt="fig" src="figures/lesson-03/fig_02.JPG" width="50%">
+<img alt="fig" src="figures/lecture-03/fig_02.JPG" width="50%">
 
 ```math
 K = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}I\omega^2
@@ -74,7 +74,7 @@ $\omega$ : 角速度
 
 ### 別表現
 
-<img alt="fig" src="figures/lesson-03/fig_03.JPG" width="50%">
+<img alt="fig" src="figures/lecture-03/fig_03.JPG" width="50%">
 
 ```math
 K = \frac{1}{2}m \dot{{\bf{X_{cm}}}}\cdot\dot{{\bf{X_{cm}}}} + \frac{1}{2}I\dot{\theta}^2
@@ -115,7 +115,7 @@ ${\bf{X_i}}$ : 各質点の位置ベクトル
 
 ### ２質点系での例
 
-<img alt="fig" src="figures/lesson-03/fig_04.JPG" width="50%">
+<img alt="fig" src="figures/lecture-03/fig_04.JPG" width="50%">
 
 ```math
 x_{cm} = \frac{1}{m_1 + m_2}(m_1 x_1 + m_2 x_2) \\
@@ -123,7 +123,7 @@ x_{cm} = \frac{1}{m_1 + m_2}(m_1 x_1 + m_2 x_2) \\
 
 ## 各質点の位置
 
-<img alt="fig" src="figures/lesson-03/fig_05.JPG" width="50%">
+<img alt="fig" src="figures/lecture-03/fig_05.JPG" width="50%">
 
 ### 各質点の位置 ${\bf{X_i}}$
 
@@ -217,7 +217,7 @@ y_{cm} \\
 \end{pmatrix} とする。
 ```
 
-<img alt="fig" src="figures/lesson-03/fig_06.JPG" width="50%">
+<img alt="fig" src="figures/lecture-03/fig_06.JPG" width="50%">
 
 ラグランジアン
 

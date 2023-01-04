@@ -16,7 +16,7 @@
 
 ### 問い
 
-<img alt="fig" src="figures/lesson-06/fig_01.JPG" width="50%">
+<img alt="fig" src="figures/lecture-06/fig_01.JPG" width="50%">
 
 右図の系が釣り合いの状態にあるとき、 $f_1$ と $f_2$ の関係を求めよ。
 
@@ -30,7 +30,7 @@ f_1 l_1 = f_1 l_2
 
 ### 問い
 
-<img alt="fig" src="figures/lesson-06/fig_02.JPG" width="50%">
+<img alt="fig" src="figures/lecture-06/fig_02.JPG" width="50%">
 
 右図のモータが $\tau$ のトルクを出力している。この系が釣り合いの状態にあるとき、 $f$ と $\tau$ の関係を求めよ。
 
@@ -44,7 +44,7 @@ f_1 l_1 = f_1 l_2
 
 ## 質点における釣り合い
 
-<img alt="fig" src="figures/lesson-06/fig_03.JPG" width="50%">
+<img alt="fig" src="figures/lecture-06/fig_03.JPG" width="50%">
 
 ```math
 質点に働いている力 f_i の合計 \sum_{i=1}^n f_i が 0 のとき、系は釣り合いの状態
@@ -52,7 +52,7 @@ f_1 l_1 = f_1 l_2
 
 ## 釣り合いの一般化
 
-<img alt="fig" src="figures/lesson-06/fig_04.JPG" width="50%">
+<img alt="fig" src="figures/lecture-06/fig_04.JPG" width="50%">
 
 では、複雑な系での釣り合いは？
 
@@ -64,7 +64,7 @@ f_1 l_1 = f_1 l_2
 
 ## 仮想仕事の原理の数学的表現
 
-<img alt="fig" src="figures/lesson-06/fig_05.JPG" width="50%">
+<img alt="fig" src="figures/lecture-06/fig_05.JPG" width="50%">
 
 図には沢山の質点があり、お互いに拘束されている。
 
@@ -94,7 +94,7 @@ $\delta {\bf{X}}_i$ : 各質点の仮想変位 (拘束に矛盾しない微小�
 
 ## 仮想仕事の原理の適用例
 
-<img alt="fig" src="figures/lesson-06/fig_06.JPG" width="50%">
+<img alt="fig" src="figures/lecture-06/fig_06.JPG" width="50%">
 
 各仮想変位の関係
 
@@ -122,7 +122,7 @@ $\delta {\bf{X}}_i$ : 各質点の仮想変位 (拘束に矛盾しない微小�
 
 ## 演習
 
-<img alt="fig" src="figures/lesson-06/fig_07.JPG" width="50%">
+<img alt="fig" src="figures/lecture-06/fig_07.JPG" width="50%">
 
 ### 問い
 
@@ -163,7 +163,7 @@ $\delta {\bf{X}}_i$ : 各質点の仮想変位 (拘束に矛盾しない微小�
 
 ## リンク構造の仮想仕事の原理
 
-<img alt="fig" src="figures/lesson-06/fig_08.JPG" width="50%">
+<img alt="fig" src="figures/lecture-06/fig_08.JPG" width="50%">
 
 関節角度のベクトル
 
@@ -226,7 +226,7 @@ $\delta {\bf{X}}_i$ : 各質点の仮想変位 (拘束に矛盾しない微小�
 
 ## 演習
 
-<img alt="fig" src="figures/lesson-06/fig_08.JPG" width="50%">
+<img alt="fig" src="figures/lecture-06/fig_08.JPG" width="50%">
 
 ### 問い
 
@@ -267,7 +267,7 @@ $\delta {\bf{X}}_i$ : 各質点の仮想変位 (拘束に矛盾しない微小�
 
 手先速度と関節角速度、手先力と関節トルクの関係を表す行列
 
-<img alt="fig" src="figures/lesson-06/fig_08.JPG" width="50%">
+<img alt="fig" src="figures/lecture-06/fig_08.JPG" width="50%">
 
 手先速度と関節速度の関係
 
@@ -302,14 +302,14 @@ $\delta {\bf{X}}_i$ : 各質点の仮想変位 (拘束に矛盾しない微小�
 
 下図の関節角 $q_1$ , $q_2$ と手先位置 ${\bf{x}}$ の関係を導出せよまた、ヤコビ行列を導出せよ
 
-<img alt="fig" src="figures/lesson-06/fig_09.JPG" width="50%">
+<img alt="fig" src="figures/lecture-06/fig_09.JPG" width="50%">
 
 $\dot{{\bf{x}}} = {\bf{J}}({\bf{q}})\dot{{\bf{q}}}$
 ${\bf{J}}({\bf{q}})$ : ヤコビ行列
 
 ### 解答
 
-<img alt="fig" src="figures/lesson-06/fig_10.JPG" width="50%">
+<img alt="fig" src="figures/lecture-06/fig_10.JPG" width="50%">
 
 手先位置を求める
 
