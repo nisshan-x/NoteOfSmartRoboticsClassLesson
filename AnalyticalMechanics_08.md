@@ -8,14 +8,14 @@
 |  | 微分 | 変分 |
 |--|-----|----- |
 |対象|関数 $y(x)$ | 汎関数 $𝐼=\int_{x_1}^{x_2}𝑓(𝑥,𝑦,𝑦')d𝑥$ |
-|考える微小変化|変数$x$の値|関数$y$の形|
-|極値の条件|微分 $d𝑦(𝑥)d𝑥$ が $0$ | 変分 $\delta I$ が$0$ （つまり、オイラーの微分方程式が成立するとき）
+|考える微小変化|変数 $x$ の値|関数 $y$ の形|
+|極値の条件|微分 $d𝑦(𝑥)d𝑥$ が $0$ | 変分 $\delta I$ が $0$ （つまり、オイラーの微分方程式が成立するとき）
 
 ## 演習
 
 ### 問い
 
-汎関数$I=\int_{x_1}^{x_2}(x^2+y^2+y'^2)dx$が極値を取る条件を、変分法により求めよ。
+汎関数 $I=\int_{x_1}^{x_2}(x^2+y^2+y'^2)dx$ が極値を取る条件を、変分法により求めよ。
 
 オイラーの微分方程式
 $\frac{d}{dx} (\frac{\partial}{\partial y'}f) - \frac{\partial}{\partial y}f = 0$
@@ -36,7 +36,9 @@ $\frac{d}{dx} (\frac{\partial}{\partial y'}f) - \frac{\partial}{\partial y}f = 0
 
 ## 変形オイラーの方程式
 
-汎関数 $I=\int_{x_1}^{x_2}(x^2+y^2+y'^2)dx$ の関数 $f$ が $x$ に陽に依存しない場合、変分法における極値の条件の計算（オイラーの方程式 $\frac{d}{dx} (\frac{\partial}{\partial y'}f) - \frac{\partial}{\partial y}f = 0$ ）が簡略化 $f - \frac{\partial f}{\partial y'}y' = $定数 できる
+汎関数 $I=\int_{x_1}^{x_2}(x^2+y^2+y'^2)dx$ の関数 $f$ が $x$ に陽に依存しない場合、変分法における極値の条件の計算（オイラーの方程式 $\frac{d}{dx} (\frac{\partial}{\partial y'}f) - \frac{\partial}{\partial y}f = 0$ ）が簡略化 $f - \frac{\partial f}{\partial y'}y' = $定数 できる <br>
+<br>
+陽に : explicit の訳、明示的に
 
 ## 汎関数の例
 
