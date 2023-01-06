@@ -182,6 +182,12 @@ f_x = -\frac{\partial}{\partial x}U , f_y = -\frac{\partial}{\partial y}U, f_z =
 \end{aligned}
 ```
 
+保存力の性質
+
+```math
+{\bf{f}} = - \frac{\partial U}{\partial {\bf{x}}}
+```
+
 ## 演習
 
 ### 問い
