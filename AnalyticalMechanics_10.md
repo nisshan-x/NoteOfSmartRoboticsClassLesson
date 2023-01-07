@@ -11,7 +11,7 @@
 
 ```math
 \begin{aligned}
-K = \frac{1}{2} m_1 v_{com_{1}}^2+ \frac{1}{2} I_1 \dot{\theta}_{com_{1}}^2 + \frac{1}{2} m_2 v_{com_{2}}^2+ \frac{1}{2} I_2 \dot{\theta}_{com_{2}}^2
+K = \frac{1}{2} m_1 v_{com1}^2+ \frac{1}{2} I_1 \dot{\theta}_{com1}^2 + \frac{1}{2} m_2 v_{com_{2}}^2+ \frac{1}{2} I_2 \dot{\theta}_{com_{2}}^2
 \end{aligned}
 ```
 
@@ -103,20 +103,20 @@ l_{1} \cos q_1 + l_{g_2} \cos (q_1 + q_2) & l_{g_2} \cos (q_1 + q_2)\\
 
 ```math
 \begin{aligned}
-K &= \frac{1}{2} m_1 v_{com_{1}}^2+ \frac{1}{2} I_1 \dot{\theta}_{com_{1}}^2 + \frac{1}{2} m_2 v_{com_{2}}^2+ \frac{1}{2} I_2 \dot{\theta}_{com_{2}}^2 \\
-&= \frac{1}{2} m_1 (\dot{x}_{com_{1}}^2 + \dot{y}_{com_{1}}^2) + \frac{1}{2} I_1 \dot{\theta}_{com_{1}}^2 + \frac{1}{2} m_2 (\dot{x}_{com_{2}}^2 + \dot{y}_{com_{2}}^2) + \frac{1}{2} I_2 \dot{\theta}_{com_{2}}^2 \\
+K &= \frac{1}{2} m_1 v_{com1}^2 + \frac{1}{2} I_1 \dot{\theta}_{com1}^2 + \frac{1}{2} m_2 v_{com_{2}}^2+ \frac{1}{2} I_2 \dot{\theta}_{com_{2}}^2 \\
+&= \frac{1}{2} m_1 (\dot{x}_{com1}^2 + \dot{y}_{com1}^2) + \frac{1}{2} I_1 \dot{\theta}_{com1}^2 + \frac{1}{2} m_2 (\dot{x}_{com_{2}}^2 + \dot{y}_{com_{2}}^2) + \frac{1}{2} I_2 \dot{\theta}_{com_{2}}^2 \\
 &= \frac{1}{2} \begin{pmatrix}
-\dot{x}_{com_{1}} \\
-\dot{y}_{com_{1}} \\
-\dot{\theta}_{com_{1}} \\
+\dot{x}_{com1} \\
+\dot{y}_{com1} \\
+\dot{\theta}_{com1} \\
 \end{pmatrix}^T \begin{pmatrix}
 m_1 & 0 & 0 \\
 0 & m_1 & 0 \\
 0 & 0 & m_1 \\
 \end{pmatrix}\begin{pmatrix}
-\dot{x}_{com_{1}} \\
-\dot{y}_{com_{1}} \\
-\dot{\theta}_{com_{1}} \\
+\dot{x}_{com1} \\
+\dot{y}_{com1} \\
+\dot{\theta}_{com1} \\
 \end{pmatrix} + \frac{1}{2} \begin{pmatrix}
 \dot{x}_{com_{2}} \\
 \dot{y}_{com_{2}} \\
@@ -131,9 +131,9 @@ m_2 & 0 & 0 \\
 \dot{\theta}_{com_{2}} \\
 \end{pmatrix} \\
 &= \frac{1}{2} \dot{{\bf{x}}}_{com_1}^T {\bf{M}}_1 \dot{{\bf{x}}}_{com_1} + \frac{1}{2} \dot{{\bf{x}}}_{com_2}^T {\bf{M}}_2 \dot{{\bf{x}}}_{com_2} \\
-&= \sum_{i=1}^{2} \frac{1}{2} \dot{{\bf{x}}}_{com_i}^T {\bf{M}}_i \dot{{\bf{x}}}_{com_i}\\
-&= \sum_{i=1}^{2} \frac{1}{2} \dot{{\bf{q}}}^T {\bf{J}}_{com_i}^T {\bf{M}}_i {\bf{J}}_{com_i} \dot{{\bf{q}}}\\
-&= \frac{1}{2} \dot{{\bf{q}}}^T {\bf{M}} \dot{{\bf{q}}}\\
+&= \sum_{i=1}^{2} \frac{1}{2} \dot{{\bf{x}}}_{com_i}^T {\bf{M}}_i \dot{{\bf{x}}}_{com_i} \\
+&= \sum_{i=1}^{2} \frac{1}{2} \dot{{\bf{q}}}^T {\bf{J}}_{com_i}^T {\bf{M}}_i {\bf{J}}_{com_i} \dot{{\bf{q}}} \\
+&= \frac{1}{2} \dot{{\bf{q}}}^T {\bf{M}} \dot{{\bf{q}}} \\
 \end{aligned}
 ```
 
