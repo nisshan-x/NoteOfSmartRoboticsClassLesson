@@ -28,7 +28,12 @@ y_{com_1} \\
 l_{g_1} \cos q_1 \\
 l_{g_1} \sin q_1 \\
 q_1 \\
-\end{pmatrix} ,\\
+\end{pmatrix} \\
+\end{aligned}
+```
+
+```math
+\begin{aligned}
 {\bf{x}}_{com_2} &= \begin{pmatrix}
 x_{com_2} \\
 y_{com_2} \\
@@ -66,7 +71,12 @@ l_{g_1} \cos q_1 & 0\\
 \dot{q}_1 \\
 \dot{q}_2 \\
 \end{pmatrix} \\
-&= {\bf{J}}_{com_1} \dot{{\bf{q}}} , \\
+&= {\bf{J}}_{com_1} \dot{{\bf{q}}}\\
+\end{aligned}
+```
+
+```math
+\begin{aligned}
 \dot{{\bf{x}}}_{com_2} &= \begin{pmatrix}
 \dot{x}_{com_2} \\
 \dot{y}_{com_2} \\
