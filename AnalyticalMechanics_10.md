@@ -130,6 +130,11 @@ m_2 & 0 & 0 \\
 \dot{y}_{com_{2}} \\
 \dot{\theta}_{com_{2}} \\
 \end{pmatrix} \\
+\end{aligned}
+```
+
+```math
+\begin{aligned}
 &= \frac{1}{2} \dot{{\bf{x}}}_{com_1}^T {\bf{M}}_1 \dot{{\bf{x}}}_{com_1} + \frac{1}{2} \dot{{\bf{x}}}_{com_2}^T {\bf{M}}_2 \dot{{\bf{x}}}_{com_2} \\
 &= \sum_{i=1}^{2} \frac{1}{2} \dot{{\bf{x}}}_{com_i}^T {\bf{M}}_i \dot{{\bf{x}}}_{com_i} \\
 &= \sum_{i=1}^{2} \frac{1}{2} \dot{{\bf{q}}}^T {\bf{J}}_{com_i}^T {\bf{M}}_i {\bf{J}}_{com_i} \dot{{\bf{q}}} \\
