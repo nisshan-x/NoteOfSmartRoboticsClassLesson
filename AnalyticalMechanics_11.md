@@ -48,7 +48,13 @@ U = m_1 g l_{g1} \sin q_1 + m_2 g \bigl(l_1 \sin q_1 + l_g2 \sin (q_1 + q_2) \bi
 K = \frac{1}{2} \dot{\bf{q}}^T {\bf{M}} {\bf{q}}
 ```
 
-一般化座標を ${\bf{q}} = \begin{pmatrix} q_1 & q_2\end{pmatrix}^T$ とした場合の重力下２リンク機構の運動方程式を求めよ
+一般化座標を
+
+```math
+{\bf{q}} = \begin{pmatrix} q_1 \\ q_2 \end{pmatrix}
+```
+
+とした場合の重力下２リンク機構の運動方程式を求めよ
 
 ### 解答
 
@@ -71,11 +77,11 @@ ${\bf{g}}$ : 重力ベクトル項。Uを偏微分したもの。
 {\bf{g}} &= \frac{\partial U}{\partial {\bf{q}}} \\
 &= \begin{pmatrix}
 \frac{\partial U}{\partial q_1} \\
-\frac{\partial U}{\partial q_2} \\
+\frac{\partial U}{\partial q_2}
 \end{pmatrix}
 &= \begin{pmatrix}
 m_1 g l_{g1} \cos q_1 + m_2 g \bigl(l_1 \cos q_1 + l_{g2} \cos (q_1 + q_2) \bigr) \\
-m_2 g l_{g2} \cos (q_1 + q_2) \\
+m_2 g l_{g2} \cos (q_1 + q_2)
 \end{pmatrix}
 \end{aligned}
 ```
@@ -91,7 +97,7 @@ ${\bf{x}}^T {\bf{A}} {\bf{x}}$ を行列 ${\bf{A}}$ の **二次形式** と呼�
 {\bf{A}} = \begin{pmatrix}
 a_{11} & \cdots & a_{1n} \\
 \vdots & \ddots & \vdots \\
-a_{n1} & \cdots & a_{nn} \\
+a_{n1} & \cdots & a_{nn}
 \end{pmatrix}
 \end{aligned}
 ```
@@ -102,7 +108,7 @@ a_{n1} & \cdots & a_{nn} \\
 x_1 \\
 x_1 \\
 \vdots \\
-x_n\\
+x_n
 \end{pmatrix}
 \end{aligned}
 ```
@@ -115,16 +121,16 @@ x_n\\
 x_1 & x_2
 \end{pmatrix}\begin{pmatrix}
 a_{11} & a_{12} \\
-a_{21} & a_{22} \\
+a_{21} & a_{22}
 \end{pmatrix}\begin{pmatrix}
 x_1 \\
-x_2 \\
+x_2
 \end{pmatrix} \\
 &= \begin{pmatrix}
 a_{11} x_1 + a_{21} x_2 & a_{12} x_1 + a_{22} x_2
 \end{pmatrix}\begin{pmatrix}
 x_1 \\
-x_2 \\
+x_2
 \end{pmatrix} \\
 &= a_{11} x_1^2 + a_{21} x_1 x_2 + a_{12} x_1 x_2 + a_{22} x_2^2
 \end{aligned}
@@ -146,15 +152,15 @@ x_2 \\
 \begin{aligned}
 \frac{\partial ({\bf{x}}^T {\bf{A}} {\bf{x}})}{\partial {\bf{x}}} &= \begin{pmatrix}
 \frac{\partial ({\bf{x}}^T {\bf{A}} {\bf{x}})}{\partial x_1} \\
-\frac{\partial ({\bf{x}}^T {\bf{A}} {\bf{x}})}{\partial x_2} \\
+\frac{\partial ({\bf{x}}^T {\bf{A}} {\bf{x}})}{\partial x_2}
 \end{pmatrix} \\
 &= \begin{pmatrix}
 2 a_{11} x_1 + a_{21} x_2 + a_{12} x_2 \\
-a_{21} x_1 + a_{12} x_1 + 2 a_{22} x_2 \\
+a_{21} x_1 + a_{12} x_1 + 2 a_{22} x_2
 \end{pmatrix} \\
 &= \begin{pmatrix}
 2 a_{11} & a_{21} + a_{12} \\
-a_{21} + a_{12} & 2 a_{22} \\
+a_{21} + a_{12} & 2 a_{22}
 \end{pmatrix} \begin{pmatrix}
 x_1 \\
 x_2
@@ -168,14 +174,14 @@ x_2
 \begin{aligned}
 &\begin{pmatrix}
 2 a_{11} & a_{21} + a_{12} \\
-a_{21} + a_{12} & 2 a_{22} \\
+a_{21} + a_{12} & 2 a_{22}
 \end{pmatrix} \begin{pmatrix}
 x_1 \\
 x_2
 \end{pmatrix} \\
 &= \begin{pmatrix}
 2 a_{11} & 2 a_{12} \\
-2 a_{21} & 2 a_{22} \\
+2 a_{21} & 2 a_{22}
 \end{pmatrix} \begin{pmatrix}
 x_1 \\
 x_2
