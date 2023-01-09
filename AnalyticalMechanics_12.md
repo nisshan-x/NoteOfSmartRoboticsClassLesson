@@ -172,6 +172,9 @@ U = \frac{1}{2} {\bf{q}}^T {\bf{K}} {\bf{q}}
 
 ```math
 {\bf{M}} \ddot{\bf{q}} + {\bf{h}} + {\bf{K}} {\bf{q}} = 0\\
+```
+
+```math
 {\bf{h}} = \dot{\bf{M}} \dot{\bf{q}} - \frac{\partial {\bf{K}}}{\partial {\bf{q}}}
 ```
 
@@ -181,6 +184,11 @@ U = \frac{1}{2} {\bf{q}}^T {\bf{K}} {\bf{q}}
 &= \frac{d}{dt}(\frac{1}{2} \dot{\bf{q}}^T {\bf{M}} \dot{\bf{q}}) + {\bf{q}}^T \frac{\partial U}{\partial {\bf{q}}} \\
 &= (\frac{1}{2} \ddot{\bf{q}}^T {\bf{M}} \dot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T \dot{\bf{M}} \dot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T {\bf{M}} \ddot{\bf{q}}) + \dot{\bf{q}}^T {\bf{K}} {\bf{q}} \\
 &= \frac{1}{2} \dot{\bf{q}}^T {\bf{M}} \ddot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T \dot{\bf{M}} \dot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T {\bf{M}} \ddot{\bf{q}} + \dot{\bf{q}}^T {\bf{K}} {\bf{q}} \\
+\end{aligned}
+```
+
+```math
+\begin{aligned}
 &= \dot{\bf{q}}^T {\bf{M}} \ddot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T \dot{\bf{M}} \dot{\bf{q}} + \dot{\bf{q}}^T {\bf{K}} {\bf{q}} \\
 &= \dot{\bf{q}}^T ({\bf{M}} \ddot{\bf{q}} + \frac{1}{2} \dot{\bf{M}} \dot{\bf{q}} + {\bf{K}} {\bf{q}}) \\
 &= \dot{\bf{q}}^T ( - {\bf{h}} + \frac{1}{2} \dot{\bf{M}} \dot{\bf{q}}) \\
