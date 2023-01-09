@@ -277,16 +277,16 @@ a_3 + a_2 \cos q_2 & a_3
 \frac{\partial}{\partial q_1} ( \dot{q}_1^2 (a_1 + 2 a_2 \cos q_2) + \dot{q}_1 \dot{q}_2 (a_3 + a_2 \cos q_2) +
 \dot{q}_1 \dot{q}_2 (a_3 + a_2 \cos q_2) + \dot{q}_2^2 a_3 )\\
 \frac{\partial}{\partial q_2} ( \dot{q}_1^2 (a_1 + 2 a_2 \cos q_2) + \dot{q}_1 \dot{q}_2 (a_3 + a_2 \cos q_2) +
-\dot{q}_1 \dot{q}_2 (a_3 + a_2 \cos q_2) + \dot{q}_2^2 a_3 ) \\
+\dot{q}_1 \dot{q}_2 (a_3 + a_2 \cos q_2) + \dot{q}_2^2 a_3 )
 \end{pmatrix} \\
 &= \frac{1}{2} \begin{pmatrix}
 0 \\
 \dot{q}_1^2 (- 2 a_2 \sin q_2) + \dot{q}_1 \dot{q}_2 (- a_2 \sin q_2) +
-\dot{q}_1 \dot{q}_2 (- a_2 \sin q_2) \\
+\dot{q}_1 \dot{q}_2 (- a_2 \sin q_2)
 \end{pmatrix} \\
 &= - a_2 \sin q_2 \begin{pmatrix}
 0 \\
-\dot{q}_1^2 + \dot{q}_1 \dot{q}_2 \\
+\dot{q}_1^2 + \dot{q}_1 \dot{q}_2
 \end{pmatrix} \\
 \end{aligned}
 ```
@@ -342,12 +342,14 @@ a_3 + a_2 \cos q_2 & a_3
 <br>
 例: $E = \frac{1}{2}m\dot{x}^2 + \frac{1}{2}kx^2$
 <br>
+<br>
 エネルギの時間微分は **パワー** (単位は[W])
 <br>
 例: $\dot{E} = \dot{x}(m\ddot{x} + kx)$
 <br>
 $\dot{x}$ : 速度 <br>
 $m\ddot{x} + kx$ : 力
+<br>
 <br>
 力[N] × 速度 [m/s] = パワー [W] <br>
 (回転計では、トルク[Nm] × 角速度 [rad/s] = パワー [W])
