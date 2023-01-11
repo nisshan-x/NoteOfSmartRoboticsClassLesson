@@ -157,6 +157,11 @@ ${\bf{D}}$ : 粘性行列
 \dot{E} &= \frac{d}{dt} (\frac{1}{2} \dot{\bf{q}}^T {\bf{M}} \dot{\bf{q}}) \\
 &= \frac{1}{2} \ddot{\bf{q}}^T {\bf{M}} \dot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T \dot{\bf{M}} \dot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T {\bf{M}} \ddot{\bf{q}} \\
 &= \frac{1}{2} \dot{\bf{q}}^T {\bf{M}} \ddot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T \dot{\bf{M}} \dot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T {\bf{M}} \ddot{\bf{q}} \\
+\end{aligned}
+```
+
+```math
+\begin{aligned}
 &= \dot{\bf{q}}^T {\bf{M}} \ddot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T \dot{\bf{M}} \dot{\bf{q}} \\
 &= \dot{\bf{q}}^T ({\bf{M}} \ddot{\bf{q}} + \frac{1}{2} \dot{\bf{M}} \dot{\bf{q}} )\\
 &= \dot{\bf{q}}^T (- {\bf{h}} - {\bf{D}} \dot{\bf{q}} + \frac{1}{2} \dot{\bf{M}} \dot{\bf{q}} )\\
