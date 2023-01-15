@@ -203,6 +203,11 @@ E = \frac{1}{2} \dot{\bf{q}}^T {\bf{M}} \dot{\bf{q}}
 \begin{aligned}
 \dot{E} &= \frac{1}{2} \ddot{\bf{q}}^T {\bf{M}} \dot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T \dot{\bf{M}} \dot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T {\bf{M}} \ddot{\bf{q}} \\
 &= \frac{1}{2} \dot{\bf{q}}^T {\bf{M}} \ddot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T \dot{\bf{M}} \dot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T {\bf{M}} \ddot{\bf{q}} \\
+\end{aligned}
+```
+
+```math
+\begin{aligned}
 &= \dot{\bf{q}}^T {\bf{M}} \ddot{\bf{q}} + \frac{1}{2} \dot{\bf{q}}^T \dot{\bf{M}} \dot{\bf{q}} \\
 &= \dot{\bf{q}}^T ( {\bf{M}} \ddot{\bf{q}} + \frac{1}{2} \dot{\bf{M}} \dot{\bf{q}} ) \\
 &= \dot{\bf{q}}^T ( \frac{1}{2} \dot{\bf{M}} \dot{\bf{q}} - {\bf{h}} + {\bf{J}}^T_y \lambda ) \\
