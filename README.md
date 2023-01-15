@@ -5,6 +5,7 @@
 ## インデックス
 
 * [解析力学](AnalyticalMechanics_index.md)
+* [制御工学２](Control_2_index.md)
 
 ## 免責事項
 
